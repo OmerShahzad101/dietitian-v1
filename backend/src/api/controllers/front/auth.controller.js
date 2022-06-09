@@ -3,27 +3,32 @@ const { SendEmail } = require("../../utils/email_Send");
 const { frontUrl } = require("../../../config/vars");
 const User = require("../../models/users.model");
 var request = require("request");
-const {accountVerificationEmailTemplate,resetPasswordEmailTemplate} = require("./emailTemplate/emailTemplate");
+const {
+  accountVerificationEmailTemplate,
+  resetPasswordEmailTemplate,
+} = require("./emailTemplate/emailTemplate");
 const env = require("../../../config/vars");
 
 exports.register = async (req, res, next) => {
   let MailingListID = env.client_email_id;
   let { name, email, number, dietitian } = req.body;
+  console.log(req.body)
   let payload = { name, email, number, dietitian };
-  if (dietitian == "yes") { MailingListID = env.dietition_email_id }
+  if (dietitian == "yes") {
+    MailingListID = env.dietition_email_id;
+  }
 
+  console.log("MailingListID", MailingListID);
+  request({
+    method: "POST",
+    url: `https://api.moosend.com/v3/subscribers/${MailingListID}/subscribe.json?apikey=${env.api_key}`,
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: `{ \"Name\": \"${name}\",  \"Email\": \"${email}\", \"Mobile\": \"${number}\"}`,
+  });
 
-  request(
-    {
-      method: "POST",
-      url: `https://api.moosend.com/v3/subscribers/${MailingListID}/subscribe.json?apikey=${env.api_key}`,
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: `{ \"Name\": \"${name}\",  \"Email\": \"${email}\", \"Mobile\": \"${number}\"}`},
-  );
-  
   email = email.toLowerCase();
   let user = await User.findOne({ email });
   if (user) {

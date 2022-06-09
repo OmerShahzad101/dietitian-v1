@@ -1,0 +1,247 @@
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche.eot');
+    src: url('../../assets/fonts/Noiche.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche.woff') format('woff'),
+        url('../../assets/fonts/Noiche.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche-Thin.eot');
+    src: url('../../assets/fonts/Noiche-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche-Thin.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche-Thin.woff') format('woff'),
+        url('../../assets/fonts/Noiche-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche-Light.eot');
+    src: url('../../assets/fonts/Noiche-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche-Light.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche-Light.woff') format('woff'),
+        url('../../assets/fonts/Noiche-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche-Bold.eot');
+    src: url('../../assets/fonts/Noiche-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche-Bold.woff') format('woff'),
+        url('../../assets/fonts/Noiche-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche-Black.eot');
+    src: url('../../assets/fonts/Noiche-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche-Black.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche-Black.woff') format('woff'),
+        url('../../assets/fonts/Noiche-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche-SemiBold.eot');
+    src: url('../../assets/fonts/Noiche-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche-SemiBold.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche-SemiBold.woff') format('woff'),
+        url('../../assets/fonts/Noiche-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noiche';
+    src: url('../../assets/fonts/Noiche-Medium.eot');
+    src: url('../../assets/fonts/Noiche-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/Noiche-Medium.woff2') format('woff2'),
+        url('../../assets/fonts/Noiche-Medium.woff') format('woff'),
+        url('../../assets/fonts/Noiche-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+   
+
+:root {
+    --orange-dark: #D9753B;
+    --orange-smlit: #EE9B00;
+    --orange-exlit: #FFF6E2;
+    --yellow-light:#FFD992;
+    --facbook-bg:#3B5998;
+    --linkedin-bg:#0077B5;
+    --instagram-bg:#CD486B;
+  }
+.bg_smlight{background-color: var(--yellow-light);}
+.fb_bg{background-color:var(--facbook-bg);}
+.linkedin_bg{background-color:var(--linkedin-bg) ;}
+.instagram_bg{background-color:var(--instagram-bg) ;}
+.txt_clr_blue{color: #008C96;}
+
+body { font-family: 'Noiche'; }
+ul{list-style: none;padding: 0;;}
+
+
+/* generic_input_style   */
+.form-control:focus:focus {box-shadow: none;} 
+.form-select:focus {border-color: none;outline: 0;box-shadow: none;}
+.form-select {-webkit-appearance: none;-moz-appearance: none;text-indent: 1px;text-overflow: '';}
+
+
+
+/* theme_container */
+.theme_container{max-width: 1576px;margin: 0 auto; } 
+.navbar-light .navbar-nav .nav-link {color: #000;}
+.navbar-light .navbar-nav .nav-link:hover{color: #BB3E03;}
+
+.btn_theme{max-width: 161px;height: 39px;border-radius: 19.5px;background: var(--orange-smlit);display: flex;justify-content: center;align-items: center;border: 1px solid var(--orange-smlit);padding: 0 20px;font-family: 'Noiche';font-weight: bold;font-size: 24px;text-align: left;color: #fff; }
+.btn_theme:hover{background: transparent;color: var(--orange-smlit);}
+
+.box_shadow{box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.16);}
+.mt_top {
+    margin-top: 110px;
+}
+
+.stay_Connected_form .form-control::-webkit-input-placeholder {  
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 600;
+  }
+  .stay_Connected_form .form-control::-moz-placeholder {  
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 600;
+  }
+  .stay_Connected_form .form-control:-ms-input-placeholder {  
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 600;
+  }
+  .stay_Connected_form .form-control:-moz-placeholder { 
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 600;
+  }
+
+
+
+
+
+  select::-ms-expand {display: none;}
+select:focus::-ms-value{background:0 0!important}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;margin: 0;
+}
+input[type=number] {-moz-appearance:none;}
+select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+
+
+::-webkit-input-placeholder { 
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 500;
+}
+::-moz-placeholder { 
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 500;
+}
+:-ms-input-placeholder { 
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 500;
+}
+:-moz-placeholder { 
+    color: #b8b8b8;
+    font-family: 'Noiche';
+    font-weight: 500;
+}
+
+
+
+.iagree_radio label {
+    /* z-index: 9930; */
+    position: relative;
+    padding-left: 44px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding-top: 2px;
+    cursor: pointer;
+    font-family: 'Noiche'; 
+    font-weight: 700;
+    text-align: left;
+    color: #212529;
+    margin: 10px 0 19px;
+}
+.iagree_radio label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+    width: 33px;
+    height: 33px;
+    border-radius: 6px;
+    background: #fff;
+    border: 2px solid #888;
+}
+ .iagree_radio label::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    height: 22px;
+    width: 22px;
+    background: url('../images/Home/tick.png') no-repeat;
+    background-size: contain;
+    opacity: 0;
+    display: inline-block;
+}
+.iagree_radio input {
+    display: none;
+}
+.iagree_radio input:checked+label:after {
+    opacity: 1;
+}
+.iagree_radio input:checked+label:before {
+    border: 2px solid #2EE38B;
+}
+.form_box_input .form-group input:focus {
+    outline: none;
+    border: 2px solid #ee9b00;
+    border-radius: 50px;
+    transition: .2s ease-in;
+}
+.error,
+.error_quest{
+    color: red;
+    font-size: 19px;
+    font-weight: 500;
+}

@@ -1,0 +1,32 @@
+.navbar_wraper {min-height: 110px;background: #fff;box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);position: fixed;z-index: 9991;width: 100%;top: 0;padding: 11px 0px 5px;}
+.navbar-light .navbar-nav .nav-link {position: relative;height: auto;padding-left: 0;margin-left: 26px;padding-right: 0;}
+.navbar-light .navbar-nav .nav-link:hover:after {width: 33px;}
+.navbar-light .navbar-nav .nav-link:after {content: "";position: absolute;left: 0;bottom: 15px;width: 0;height: 3px;background: #BB3E03;transition: all 0.3s;}
+.navbar-light .navbar-nav .nav-link:first-child::after{display: none;}
+.nav_linke .nav-link {font-family: 'Noiche';font-weight: bold;font-weight: 500;font-size: 32px;text-align: left;color: #000;}
+.nav_linke .nav-link:hover {color: #BB3E03;}
+.un_set.nav-link {pointer-events: none;}
+
+
+.search_menu_wraper {width: 518px;height: 50px;border-radius: 25px;background: #fff;border: 1px solid #bb3e03;display: flex;justify-content: space-between;padding: 0 13px;align-items: center;}
+.select_wrpaer {width: 60%;position: relative;}
+.select_icon {position: absolute;}
+.select_icon {position: absolute;top: 50%;right: 30px;}
+.select_wrpaer::after {content: "";width: 0px;height: 21px;background: transparent;border: 0.8px solid #7e7e7e;right: 10px;position: absolute;top: 50%;transform: translateY(-50%);}
+.input_wrpaer {width: 100%;position: relative;}
+.search_btn_wrpaer {width: 15%;}
+.select_wrpaer Select {border: none;font-family: 'Noiche';font-weight: 500;font-size: 26px;text-align: left;color: #000;background: none;}
+.input_wrpaer input {background: none;padding: 3px 0 0 17px;border: none;font-family: 'Noiche';font-weight: 500;font-size: 26px;text-align: left;color: #7e7e7e;}
+.map_icon {position: absolute;top: 50%;transform: translateY(-50%);}
+.login_btn .nav-link:hover {background: transparent;}
+.login_btn .nav-link:first-child {margin-right: 10px;}
+.login_btn .nav-link img {margin-right: 9px;}
+.login_btn .nav-link {border-radius: 50px;font-weight: 500;font-size: 25px;text-align: left;color: #000;background: var(--orange-smlit);filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));height: 43px;display: flex;align-items: center;justify-content: center;padding: 0 22px;border: 2px solid var(--orange-smlit);}
+
+
+
+
+
+
+
+
