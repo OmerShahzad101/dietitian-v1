@@ -2,11 +2,18 @@
     max-width: 500px;
     margin: 14px 0px
 }
-.footer_linke .nav-link { 
+.footer_linke a { 
     line-height: normal;
     padding: 0;
     font-size: 24px;
     font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    font-family: Noiche;
+}
+.footer_linke a:hover
+{
+    color: #bb3e03;
 }
 .footer_linke  .nav_linke.nav {
     width: 377px;

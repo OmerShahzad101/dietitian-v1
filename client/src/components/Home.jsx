@@ -1,4 +1,4 @@
-import React, { useState } from 'react' 
+import React, { useEffect, useState } from 'react' 
 import '../assets/css/theme.css';
 import '../assets/css/home.css';
 import { ToastContainer, toast } from "react-toastify";
@@ -42,15 +42,26 @@ import email_icon from '../assets/images/Home/email.svg'
 import user_icon from '../assets/images/Home/user.svg'
 import check_true from '../assets/images/Home/check.png'
 import { Spinner } from "react-bootstrap";
+import $ from "jquery"
 
 
 function show(){ 
-  console.log("clicked");
   const element = document.getElementById("main");
   element.scrollIntoView();
 }
 
 const Home = () => {
+  useEffect(() =>{
+    toast.info('Please note that this platform is still under development. We are launching it soon, the purpose of this page is to get subscribers to notify them before launching the software.', {
+      position: "top-right",
+      autoClose: false,
+      hideProgressBar: true,
+      closeOnClick: true,
+      draggable: false,
+      progress: undefined,
+      });
+    $('html,body').animate({scrollTop: 0}, 'fast');
+  },[])
   const [done, setDone] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   
@@ -66,15 +77,20 @@ const Home = () => {
   const onSubmitHandler = (data) => {
     setIsLoading(true);
     axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{
-      // axios.post("http://localhost:8082/v1/front/auth/register", data).then((response) =>{
-      console.log(response)
         if (response.data.status === true) {
           setIsLoading(false);
-          toast.success(response.data.message);
+          toast.success(response.data.message,{
+            position:"top-right",
+            autoClose: true,
+          });
           setDone(response.data.status);
         } else {
           setIsLoading(false);
-          toast.error(response.data.message);
+          toast.error(response.data.message ,{
+            position: "top-right",
+            autoClose: true,
+
+          });
         }
     })
 
@@ -84,7 +100,7 @@ const Home = () => {
     <> 
     {/* FindRegistered_wraper */}
     <div className='FindRegistered_wraper mt_top'  id='main'>
-       <ToastContainer />
+      <ToastContainer className="custom_toast" newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable={false} theme='colored'/>
         <div className='theme_container FindRegistered_inner'>
           <div className='banner_content'>
             <h1>Find a Registered Dietitian Nutritionist Your Way.</h1>
