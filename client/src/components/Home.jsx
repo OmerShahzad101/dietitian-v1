@@ -6,8 +6,6 @@ import "react-toastify/dist/ReactToastify.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import PhoneInput from 'react-phone-input-2'
-import 'react-phone-input-2/lib/style.css'
 import axios from "axios"
 import map from '../assets/images/map_icon.png'
 import about_us_right from '../assets/images/Home/about_us_right.webp' 
@@ -41,7 +39,6 @@ import clock_regular from '../assets/images/Home/clock-regular.png'
 import join_our_diet_img from '../assets/images/Home/join_our_diet_img.webp'
 import arrow_down from '../assets/images/Home/arrow-down.svg' 
 import email_icon from '../assets/images/Home/email.svg'
-import mobile_icon from '../assets/images/Home/mobile.svg'
 import user_icon from '../assets/images/Home/user.svg'
 import check_true from '../assets/images/Home/check.png'
 
@@ -54,18 +51,12 @@ function show(){
 
 const Home = () => {
   const [done, setDone] = useState(false);
-  const [phone, setPhone] = useState("");
-  const [phoneError, setPhoneError] = useState("");
-  let formData={}
-
-  const handlechange = (e) => {
-    setPhone(e)
-  }
 
   const schema = yup.object().shape({
     email: yup.string().email("Please enter a valid email").required("Email is required"),
-    name: yup.string().required("Name is required"),
-    dietitian: yup.mixed().nullable().required("Required"),
+    firstName: yup.string().required("First Name is required"),
+    lastName: yup.string().required("Last Name is required"),
+    dietitian: yup.mixed().nullable().required("This field is required"),
   });
   const {register,handleSubmit, formState: { errors },} = useForm({ resolver: yupResolver(schema) });
 
@@ -80,14 +71,7 @@ const Home = () => {
 
   const onSubmitHandler = (data) => {
     myFunction()
-    if (phone === ""){
-      setPhoneError("Mobile number is required")
-    }
-    else{
-    let number ={ number :"+" + phone}
-    formData=Object.assign( formData , data)
-    formData=Object.assign( formData , number)
-    axios.post("https://dietitian.arhamsoft.org/v1/front/auth/register", formData).then((response) =>{
+    axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{
       console.log(response)
         if (response.data.status === true) {
           toast.success(response.data.message);
@@ -96,7 +80,6 @@ const Home = () => {
           toast.error(response.data.message);
         }
     })
-  }
   };
  
   return (
@@ -117,16 +100,23 @@ const Home = () => {
                 <div class="form-wrap wizard-wrapper">
                   <div class="fieldset-inner">
                     <div class="fieldset_top_text">
-                      <h3>Stay Connected</h3>
+                      <h3>Dietitian Your Way is on its way! When it's launched we'll let you know!</h3>
                       <p>Subscribe with us today</p>
                     </div>
                     <div className='form_box_input'>
                       <div className='form-group'>
                         <div className='field_wrap'>
-                          <input type="Name" className='form-control' placeholder='Enter Name' autocomplete="off" {...register("name")} />
+                          <input type="Name" className='form-control' placeholder='First Name' autocomplete="off" {...register("firstName")} />
                           <div class="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div> 
                         </div>
-                        <span className="error">{errors.name?.message}</span>
+                        <span className="error">{errors.firstName?.message}</span>
+                      </div>
+                      <div className='form-group'>
+                        <div className='field_wrap'>
+                          <input type="Name" className='form-control' placeholder='Last Name' autocomplete="off" {...register("lastName")} />
+                          <div class="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div> 
+                        </div>
+                        <span className="error">{errors.lastName?.message}</span>
                       </div>
                       <div className='form-group'>
                         <div className='field_wrap'>
@@ -136,10 +126,6 @@ const Home = () => {
                         <span className="error">{errors.email?.message}</span>
                       </div>
                       <div className='form-group'>
-                        <div className='field_wrap w-100'>
-                        <PhoneInput value={phone} onChange={(e) => handlechange(e)}/>
-                        </div>
-                        <span className="error">{phoneError}</span>
                         <div>
                           <div class="iagree_radio mt-3 mb-3">
                             <input type="radio" name="are-you-looking" id="are_you_looking" value="no" class="mb-0 is-invalid"  {...register("dietitian")} />

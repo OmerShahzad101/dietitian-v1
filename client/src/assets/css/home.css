@@ -80,8 +80,8 @@ img.check_true_img {
 .fieldset_top_text h3 {
     font-family: 'Noiche'; 
     font-weight: 700;
-    font-size: 38px;
-    line-height: 44px;
+    font-size: 39px;
+    line-height: 34px;
     text-align: center; 
     margin-bottom: 0;
     margin-top: 7px;
@@ -308,6 +308,7 @@ input.theme-greenBtn:disabled{
 	color: #212529;
 	margin-bottom: 0px;
 	text-align: center;
+	font-size: 26px;
 }
 /* Stay_Connected_wraper */
 .Stay_Connected_wraper{background: url('../images/Home/stay_connect_main.webp');min-height: 652px;background-size: cover;margin-bottom: 100px;padding: 100px 0;}
@@ -387,6 +388,10 @@ input.theme-greenBtn:disabled{
 
 	.Why_trust_us_iteme .card_item p {
 		font-size: 26px;
+	}
+	.FindRegistered_wraper h1 { 
+		font-size: 72px;
+		line-height: 69px; 
 	}
 }
 
@@ -790,7 +795,7 @@ input.theme-greenBtn:disabled{
 	}
 
 	.fieldset_top_text h3 {
-		font-size: 32px;
+		font-size: 31px;
 		line-height: normal;
 	}
 
