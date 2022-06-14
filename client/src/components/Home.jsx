@@ -41,6 +41,7 @@ import arrow_down from '../assets/images/Home/arrow-down.svg'
 import email_icon from '../assets/images/Home/email.svg'
 import user_icon from '../assets/images/Home/user.svg'
 import check_true from '../assets/images/Home/check.png'
+import { Spinner } from "react-bootstrap";
 
 
 function show(){ 
@@ -51,7 +52,8 @@ function show(){
 
 const Home = () => {
   const [done, setDone] = useState(false);
-
+  const [isLoading, setIsLoading] = useState(false);
+  
   const schema = yup.object().shape({
     email: yup.string().email("Please enter a valid email").required("Email is required"),
     firstName: yup.string().required("First Name is required"),
@@ -60,26 +62,22 @@ const Home = () => {
   });
   const {register,handleSubmit, formState: { errors },} = useForm({ resolver: yupResolver(schema) });
 
-  const btn = document.getElementById("myBtn");
-  function myFunction() {
-    btn.disabled = true;
-    setTimeout(() => {
-      btn.disabled = false;
-      
-    }, 6000);
-  }
 
   const onSubmitHandler = (data) => {
-    myFunction()
+    setIsLoading(true);
     axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{
+      // axios.post("http://localhost:8082/v1/front/auth/register", data).then((response) =>{
       console.log(response)
         if (response.data.status === true) {
+          setIsLoading(false);
           toast.success(response.data.message);
           setDone(response.data.status);
         } else {
+          setIsLoading(false);
           toast.error(response.data.message);
         }
     })
+
   };
  
   return (
@@ -95,61 +93,71 @@ const Home = () => {
           <div className='sticky_form '> 
             <form className='formBox '  onSubmit={handleSubmit(onSubmitHandler)}>
               {!done ?
-              <div class="fieldSet first-fieldset first-heading ">
-                <div class="chevron_down"> <img src={arrow_down} alt="arrow-down" /> </div>
-                <div class="form-wrap wizard-wrapper">
-                  <div class="fieldset-inner">
-                    <div class="fieldset_top_text">
+              <div className="fieldSet first-fieldset first-heading ">
+                <div className="chevron_down"> <img src={arrow_down} alt="arrow-down" /> </div>
+                <div className="form-wrap wizard-wrapper">
+                  <div className="fieldset-inner">
+                    <div className="fieldset_top_text">
                       <h3>Dietitian Your Way is on its way! When it's launched we'll let you know!</h3>
                       <p>Subscribe with us today</p>
                     </div>
                     <div className='form_box_input'>
                       <div className='form-group'>
                         <div className='field_wrap'>
-                          <input type="Name" className='form-control' placeholder='First Name' autocomplete="off" {...register("firstName")} />
-                          <div class="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div> 
+                          <input type="Name" className='form-control' placeholder='First Name' autoComplete="off" {...register("firstName")} />
+                          <div className="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div> 
                         </div>
                         <span className="error">{errors.firstName?.message}</span>
                       </div>
                       <div className='form-group'>
                         <div className='field_wrap'>
-                          <input type="Name" className='form-control' placeholder='Last Name' autocomplete="off" {...register("lastName")} />
-                          <div class="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div> 
+                          <input type="Name" className='form-control' placeholder='Last Name' autoComplete="off" {...register("lastName")} />
+                          <div className="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div> 
                         </div>
                         <span className="error">{errors.lastName?.message}</span>
                       </div>
                       <div className='form-group'>
                         <div className='field_wrap'>
-                          <input type="email" className='form-control' placeholder='Email Address' autocomplete="off"  {...register("email")} />
-                          <div class="icon"> <img className='' src={ email_icon} alt="email_icon" /> </div> 
+                          <input type="email" className='form-control' placeholder='Email Address' autoComplete="off"  {...register("email")} />
+                          <div className="icon"> <img className='' src={ email_icon} alt="email_icon" /> </div> 
                         </div>
                         <span className="error">{errors.email?.message}</span>
                       </div>
                       <div className='form-group'>
                         <div>
-                          <div class="iagree_radio mt-3 mb-3">
-                            <input type="radio" name="are-you-looking" id="are_you_looking" value="no" class="mb-0 is-invalid"  {...register("dietitian")} />
-                            <label for="are_you_looking" className='m-0'>I am looking for Dietitian. </label>
+                          <div className="iagree_radio mt-3 mb-3">
+                            <input type="radio" name="are-you-looking" id="are_you_looking" value="no" className="mb-0 is-invalid"  {...register("dietitian")} />
+                            <label htmlFor="are_you_looking" className='m-0'>I am looking for Dietitian. </label>
                           </div>
-                          <div class="iagree_radio  ">
-                            <input type="radio" name="are-you-looking" id="are_you_dietitian" value="yes" class="mb-0 is-invalid"  {...register("dietitian")}  />
-                            <label for="are_you_dietitian" className='m-0'>I am a Dietitian. </label>
+                          <div className="iagree_radio  ">
+                            <input type="radio" name="are-you-looking" id="are_you_dietitian" value="yes" className="mb-0 is-invalid"  {...register("dietitian")}  />
+                            <label htmlFor="are_you_dietitian" className='m-0'>I am a Dietitian. </label>
                           </div>
                           <span className="error_quest">{errors.dietitian?.message}</span>
                         </div>
                       </div>
                     </div>
                     <div className='theme_greenBtn_wraper'>
-                      <input class="theme-greenBtn" type="submit" value="Submit" id="myBtn" /> </div>
+                      <button className="theme-greenBtn" type="submit"  value="Submit" disabled={isLoading}>
+                        {isLoading ? 
+                        <Spinner
+                          as="span" animation="border" size="lg"
+                          role="status" aria-hidden="true"
+                          className="dg-mr-8"
+                        />:
+                        "Submit"}
+                      </button>
+                        
+                      </div>
                   </div>
                 </div>
               </div>
               :
-              <div class="fieldSet first-fieldset first-heading">
-                <div class="chevron_down"> <img src={arrow_down} alt="arrow-down" /> </div>
-                <div class="form-wrap wizard-wrapper">
-                  <div class="fieldset-inner">
-                    <div class="fieldset_top_text text_thank_you">
+              <div className="fieldSet first-fieldset first-heading">
+                <div className="chevron_down"> <img src={arrow_down} alt="arrow-down" /> </div>
+                <div className="form-wrap wizard-wrapper">
+                  <div className="fieldset-inner">
+                    <div className="fieldset_top_text text_thank_you">
                       <img src={check_true} className="check_true_img" alt="" />
                       <h3>Thank you for your interest!!</h3>  
                        <p className='text_thank_you'>Keep checking your email for further guidelines</p> 

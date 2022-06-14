@@ -292,8 +292,9 @@ margin: 0 auto;}
 .join_our_diet_img:after {content: "";position: absolute;height: 311px;width: 311px;background: url('../images/Home/join_our_diet_circle.png');top: -4px;left: 2px;bottom: 0;right: 0;margin: auto;background-size: cover;background-repeat: no-repeat;}
 .join_our_diet_img {max-width: 350px;height: auto;filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.31));position: relative;margin: 0 auto 20px;} 
 .join_our_diet_wraper h6 {font-family: 'Noiche';font-weight: bold;font-size: 30px;text-align: center;color: #000;max-width: 433px;margin: auto;line-height: normal;}
-input.theme-greenBtn:disabled{
+button.theme-greenBtn:disabled{
  cursor: not-allowed;
+ background-color: #D9753B
 }
 
 .form_box_input .react-tel-input .form-control {
