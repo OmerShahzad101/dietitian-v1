@@ -15,6 +15,8 @@ const {
 const UserSchema = new mongoose.Schema(
   {
     name: { type: String },
+    firstName: { type: String },
+    lastName: { type: String },
     email: { type: String },
     number: { type: String },
     dietitian: { type: String },
@@ -45,7 +47,8 @@ UserSchema.method({
       "description",
       "vineLink",
       "username",
-
+      "firstName",
+      "lastName",
     ];
     fields.forEach((field) => {
       transformed[field] = this[field];
