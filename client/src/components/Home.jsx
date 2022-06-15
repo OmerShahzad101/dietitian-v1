@@ -52,14 +52,6 @@ function show(){
 
 const Home = () => {
   useEffect(() =>{
-    toast.info('Please note that this platform is still under development. We are launching it soon, the purpose of this page is to get subscribers to notify them before launching the software.', {
-      position: "top-right",
-      autoClose: false,
-      hideProgressBar: true,
-      closeOnClick: true,
-      draggable: false,
-      progress: undefined,
-      });
     $('html,body').animate({scrollTop: 0}, 'fast');
   },[])
   const [done, setDone] = useState(false);
@@ -100,7 +92,7 @@ const Home = () => {
     <> 
     {/* FindRegistered_wraper */}
     <div className='FindRegistered_wraper mt_top'  id='main'>
-      <ToastContainer className="custom_toast" newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable={false} theme='colored'/>
+      <ToastContainer />
         <div className='theme_container FindRegistered_inner'>
           <div className='banner_content'>
             <h1>Find a Registered Dietitian Nutritionist Your Way.</h1>

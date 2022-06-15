@@ -241,7 +241,7 @@ margin: 0 auto;}
     align-items: center;
     justify-content: center;
 }
-.Why_trust_us h1{font-family: 'Noiche';font-weight: 600  !important;font-size: 60px;line-height: 90px;text-align: center;color: #000;margin-bottom: 70px;}
+.Why_trust_us h1{font-family: 'Noiche';font-weight: 600  !important;font-size: 60px;line-height: 90px;text-align: center;color: #000;margin-bottom: 50px;}
 .Why_trust_us{padding: 85px 0;}
 .Why_trust_us_inner {display: flex;align-items: center;justify-content: space-between;padding: 0 136px 0 100px !important; }
 .Why_trust_us_iteme .card_item {width: 530px !important;margin-bottom: 70px;}
@@ -330,39 +330,6 @@ button.theme-greenBtn:disabled{
 
 
 .step_number_mobile{display: none;}
-
-.Toastify__toast--success{
-	width: 300px!important;
-    margin-left: auto!important;
-}
-
-.Toastify__toast--error{
-	width: 300px!important;
-    margin-left: auto!important;
-}
-.custom_toast {
-	width: 60% !important;
-}
-@media (max-width:992px) {
-	.custom_toast {
-		width: 75% !important;
-	}
-}
-
-@media (max-width:768px) {
-	.custom_toast {
-		width: auto !important;
-	}
-	.Toastify__toast--error{
-		width: auto !important;
-		margin-left: auto!important;
-	}
-.Toastify__toast-container.Toastify__toast-container--top-right.custom_toast {
-    left: 0 !important;
-    right: 0!important;
-}
-}
-
 
 
 
@@ -500,6 +467,10 @@ button.theme-greenBtn:disabled{
 	.Why_trust_woman .why_trust_us {
 		margin-bottom: 100px;
 	}
+	.Why_trust_woman .why_trust_us img{
+		max-width: 100%;
+	}
+
 
 	.theme_container {
 		max-width: 991px;
@@ -602,7 +573,7 @@ button.theme-greenBtn:disabled{
 
 @media (max-width:991px) {
 	.Stay_Connected_wraper {
-		padding: 60px 30px;
+		padding: 40px 30px;
 	}
 
 	.stay_Connected_form {
@@ -614,8 +585,8 @@ button.theme-greenBtn:disabled{
 	}
 
 	.How_it_works {
-		padding-top: 70px !important;
-		padding-bottom: 70px  !important;
+		padding-top: 60px !important;
+		padding-bottom: 60px  !important;
 	}
 
 	.How_it_works h4 {
@@ -930,6 +901,17 @@ button.theme-greenBtn:disabled{
 		font-size: 17px;
 		line-height: normal;
 		margin-bottom: 13px;
+	}
+	.are_you_dietitian {
+		
+		margin-bottom: 0;
+	}	
+	.Stay_Connected_wraper {
+	
+		margin-bottom: 0px;
+	}
+	.Why_trust_us {
+		padding: 0px 0;
 	}
 }
 
