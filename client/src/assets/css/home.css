@@ -241,7 +241,7 @@ margin: 0 auto;}
     align-items: center;
     justify-content: center;
 }
-.Why_trust_us h1{font-family: 'Noiche';font-weight: 600  !important;font-size: 60px;line-height: 90px;text-align: center;color: #000;margin-bottom: 50px;}
+.Why_trust_us h1{font-family: 'Noiche';font-weight: 600  !important;font-size: 60px;line-height: 90px;text-align: center;color: #000;margin: 50px 0;}
 .Why_trust_us{padding: 85px 0;}
 .Why_trust_us_inner {display: flex;align-items: center;justify-content: space-between;padding: 0 136px 0 100px !important; }
 .Why_trust_us_iteme .card_item {width: 530px !important;margin-bottom: 70px;}
