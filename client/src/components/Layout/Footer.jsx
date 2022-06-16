@@ -24,9 +24,9 @@ const Footer = () => {
           </Nav>
           </div>
           <div className='social_linke'>
-          <Nav.Link href="https://www.facebook.com/" className='fb_bg'><img className='logo-brand' src= {facebook} alt="facebook"/></Nav.Link>
+          <Nav.Link href="https://www.facebook.com/Dietitian-Your-Way-102166695874067" className='fb_bg'><img className='logo-brand' src= {facebook} alt="facebook"/></Nav.Link>
           <Nav.Link href="https://www.linkedin.com/" className='linkedin_bg'><img className='logo-brand' src= {linkedin} alt="linkedin"/></Nav.Link>
-          <Nav.Link href="https://www.instagram.com/" className='instagram_bg'><img className='logo-brand' src= {instagram} alt="instagram"/></Nav.Link>
+          <Nav.Link href="https://instagram.com/dietitianyourway?igshid=YmMyMTA2M2Y=" className='instagram_bg'><img className='logo-brand' src= {instagram} alt="instagram"/></Nav.Link>
           
           </div>
           <p>© Dietitian Your Way – Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
