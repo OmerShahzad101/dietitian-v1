@@ -12,19 +12,28 @@ const Privacy = () => {
         <div className="privacy_header">
           <div className="container">
             <h1>Privacy Policy</h1>
-            <p>Last updated on January 10, 2022</p>
+            <p>Last modified on December 17, 2021</p>
           </div>
         </div>
         <div className="lorem_para">
           <div className="container">
             <p className=" loren_padding">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vel
-              officiis ipsum placeat itaque neque dolorem modi perspiciatis
-              dolor distinctio veritatis sapiente, minima corrupti dolores
-              necessitatibus suscipit accusantium dignissimos culpa cumque.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vel
-              officiis ipsum placeat itaque neque dolorem modi perspiciatis
-              dolor distinctio veritatis sapiente,
+             Dietitian Your Way LLC (“Company,” “us,” “we,” or “DYW”) provides the DietitianYourWay.com website and 
+             mobile application (collectively, the “Platform”) and takes your privacy and security seriously.
+             This Privacy Policy explains how we collect, use, share and protect personal data
+              (“Personal Information”) we receive from users.
+            </p>
+            <p className=" loren_padding">
+             Dietitian Your Way LLC (“Company,” “us,” “we,” or “DYW”) provides the DietitianYourWay.com website and 
+             mobile application (collectively, the “Platform”) and takes your privacy and security seriously.
+             This Privacy Policy explains how we collect, use, share and protect personal data
+              (“Personal Information”) we receive from users.
+            </p>
+            <p className=" loren_padding">
+             Dietitian Your Way LLC (“Company,” “us,” “we,” or “DYW”) provides the DietitianYourWay.com website and 
+             mobile application (collectively, the “Platform”) and takes your privacy and security seriously.
+             This Privacy Policy explains how we collect, use, share and protect personal data
+              (“Personal Information”) we receive from users.
             </p>
             <div className="lorem_wrapper">
               <span><i className="after_line">Lorem</i> ipsum dolor</span>
