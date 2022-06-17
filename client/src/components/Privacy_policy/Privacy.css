@@ -1,6 +1,9 @@
 .privacy_policy .container {
   max-width: 1576px;
 }
+p{
+  font-family: "Noiche";
+}
 .privacy_header h1 {
   font-family: "Noiche";
   font-weight: 600;
@@ -33,7 +36,7 @@
   font-size: 32px;
   line-height: 32px;
   text-align: left;
-  color: #444;
+  color: #000000;
 }
 .lorem_wrapper span {
   font-family: "Noiche";
@@ -46,25 +49,25 @@
   margin-bottom: 25px;
   display: block;
 }
-.lorem_wrapper span::after {
+.lorem_wrapper span.u-line::after {
   content: "";
   position: absolute;
   width: 100%;
-  /* height: 0px; */
-  background: transparent; 
+  height: 0px;
+  background: transparent;
   bottom: -22px;
   left: 0;
   background: transparent;
   border: 0.3px solid #7d7d7d73;
 }
-.lorem_wrapper p { 
+/* .lorem_wrapper p {
   font-family: "Noiche";
   font-weight: 600;
   font-size: 32px;
   line-height: 32px;
   text-align: left;
-  color: #444;
-}
+  color: #000;
+} */
 .lorem_wrapper li {
   font-family: "Noiche";
   font-weight: 600;
@@ -73,8 +76,11 @@
   text-align: left;
   color:#000000;
   list-style: none;
-  position: relative; 
-  margin-bottom: 15px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.lorem_wrapper li.bullits{
+  padding-left: 24px;
 }
 .lorem_wrapper ol {
   padding-left: 0;
@@ -83,23 +89,63 @@
 .lorem_wrapper ol p {
   padding-left: 24px;
 }
-.privacy_policy ul {
-  padding-left: 33px;
-}
-.lorem_wrapper .dolores::after {
-  content: url('../../assets/images/green-tick.png');
-  position: absolute;
-  left: 0;
-  left: -37px;
-  top: 4px;
-}
 p.elit {
   font-family: "Noiche";
   font-weight: 600;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 32px;
-  text-align: left;
+  display: block;
   color: #000;
+  padding-left: 25px;
+}
+p.elit span{
+  display: inline;
+  font-family: "Noiche";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  display: inline;
+  color: #000;
+  padding-left: 7px;
+}
+p.elitss {
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 32px;
+  display: block;
+  color: #000000;
+  padding-left: 25px;
+}
+p.elitss span{
+  display: inline;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 32px;
+  display: inline;
+  color: #000000;
+  padding-left: 7px;
+}
+ul li.links {
+  margin-left: 30px;
+  list-style: disc;
+  margin-bottom: 12px;
+
+}
+ul li.links a{
+  color: #000000 !important;
+  list-style-type: none;
+  text-decoration: none;
+}
+.lorem_wrapper ul.add-padd {
+  padding-left: 33px;
+  position: relative;
+}
+.lorem_wrapper li.dolores::after {
+  content: url('../../assets/images/green-tick.png');
+  position: absolute;
+  left: 0;
+  left: -12px;
+  top: 4px;
 }
 .lorem_wrapper {
   box-shadow: 0px 3px 12px rgb(0 0 0 / 16%);
@@ -117,9 +163,12 @@ p.sit_amet {
 .lorem_wrapper ol {
   padding-left: 0;
 }
-.loren_padding {
-  padding: 89px 0;
+.lorens_padding {
+  padding: 65px 0;
   margin-bottom: 0;
+}
+.lorens_padding p{
+  padding-bottom: 30px;
 }
 p.custom_padding {
   margin-bottom: 0;
@@ -133,7 +182,7 @@ i.after_line {
 i.after_line:after {
   content: "";
   position: absolute;
-  width: 84px;
+  width: 100px;
   height: 0px;
   bottom: -4px;
   background: transparent;
@@ -149,21 +198,38 @@ i.after_line:after {
 .lorem_wrapper ol li span {
   margin-right: 11px;
 }
-.lorem_wrapper ol li { 
-  
+.lorem_wrapper ol li {
+
   color: #444444;
 }
 ol.list_order li {
   color: black;
   font-size: 38px;
 }
-@media (max-width: 1890px) {
+@media (max-width: 1850px) {
+  .privacy_header {
+    background: #d9753b;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
   .privacy_header h1 {
     font-size: 74px;
-  } 
-.privacy_header { 
+  }
+.privacy_header {
     justify-content: center;
     padding: 0 71px;
+}
+.lorem_wrapper li.dolores::after {
+  left: -37px;
+  top: 4px;
+}
+.lorens_padding {
+  padding: 40px 0;
+  margin-bottom: 0;
 }
 .lorem_para p{
   padding-left: 71px;
@@ -182,23 +248,27 @@ ol.list_order li {
   .privacy_header h1 {
     font-size: 74px;
   }
-  .lorem_para p { 
+  .lorem_wrapper ul.add-padd {
+    padding-left: 33px;
+
+}
+  .lorem_para p {
     font-size: 29px;
   }
   .lorem_wrapper li
   {font-size: 29px;}
-  
+
 }
 @media (max-width: 1200px)
 
 {
-  .lorem_wrapper span { 
+  .lorem_wrapper span {
     font-size: 33px;
-  } 
-  ol.list_order li { 
+  }
+  ol.list_order li {
     font-size: 33px;
 }
-p.loren_padding {
+p.lorens_padding {
     padding-left: 55px !important;
     padding-right: 55px !important;
 }
@@ -213,17 +283,17 @@ p.loren_padding {
     margin-left: 55px;
     margin-right: 55px;
   }
-  .privacy_header { 
+  .privacy_header {
     padding-left: 55px;
     padding-right: 55px;
 }
 
-} 
+}
 @media (max-width: 1200px){
 .privacy_header {
     padding-left: 55px;
     padding-right: 55px;
-} 
+}
 .privacy_header {
     justify-content: center;
     padding: 0 71px;
@@ -235,17 +305,30 @@ p.loren_padding {
 .privacy_header h1 {
   font-size: 66px;
 }
-.privacy_policy p { 
+.privacy_policy p {
   font-size: 25px;
 }
 }
 
 @media (max-width: 578px){
-  .privacy_header { 
+  .privacy_header {
     padding: 0 25px;
   }
+  .privacy_policy p.con-1{
+    font-size: 25px;
+    margin-bottom: 0;
+}
   .lorem_wrapper ol p {
     padding-left: 12px;
+}
+p.elitss span {
+
+  font-size: 25px;
+  line-height: 31px;
+}
+.privacy_policy p {
+  font-size: 29px;
+  line-height: 27px;
 }
   .privacy_header h1 {
     font-size: 41px;
@@ -255,15 +338,15 @@ p.loren_padding {
   font-size: 21px;
   line-height: 27px;
 }
-.privacy_header { 
+.privacy_header {
   height: 193px;
 }
-p.loren_padding {
-  padding: 25px !important; 
+p.lorens_padding {
+  padding: 25px !important;
 }
 .privacy_policy p {
   font-size: 21px;
-  line-height: 27px; 
+  line-height: 27px;
 }
 .privacy_header p{
   text-align: center;
@@ -272,14 +355,14 @@ p.loren_padding {
   margin-left: 25px;
   margin-right: 25px;
 }
-.lorem_wrapper { 
-  padding: 26px 18px; 
+.lorem_wrapper {
+  padding: 26px 18px;
 }
 .lorem_wrapper span {
   font-size: 28px;
   margin-bottom: 18px;
 }
-.lorem_wrapper span::after { 
+.lorem_wrapper span::after {
   bottom: -15px;
 }
 .lorem_wrapper li {
