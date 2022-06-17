@@ -1,0 +1,147 @@
+
+.contact_us_data h5{
+    font-family: 'Noiche';
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    color: #bb3e03;
+    padding-top: 25px;
+  
+  }
+  .contact_us_data span{
+    font-family:"Noiche";
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    color: #000;
+    line-height: 16px;
+    
+  }
+  .contact_us_data p{
+    font-family: "Noiche";
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 25px;
+    text-align: center;
+    color: #444;
+    padding-top: 14px;
+    padding-bottom:20px;
+  }
+  .contactus_form_data{
+    min-height: 782px;
+    margin: 90px 0px;
+    box-shadow: 0px 3px 16px rgb(0 0 0 / 18%);
+  }
+  .form_box_contact{
+    max-width: 617px;
+    min-height: 502px;
+    border-radius: 4px;
+    background: #ffd992;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+  
+  }
+  .name_box{
+    font-family: "Noiche";
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 21px;
+    text-align: left;
+    color: #000;
+  
+  }
+  .name_box_input{
+    max-width: 240px;
+    height: 40px;
+    border-radius: 3px;
+    background: #fff;
+    border: 0.6px solid #949494;
+    opacity: 0.5;
+    margin-top: 10px;
+    padding-left: 12px;
+  
+  }
+  .name_box{
+    flex-direction: column;
+   
+    width: 240px;
+  }
+  .form_input-box{
+    display: flex;
+    max-width: 517px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 12px;
+  }
+  .form_box_contact{
+    padding: 40px 40px;
+  }
+  .language_select_box select{
+    width: 517px;
+    height: 40px;
+    border-radius: 3px;
+    background: #fff;
+    border: 0.6px solid #949494;
+    opacity: 0.5;
+    padding-left: 12px;
+  
+  }
+  .language_select_box{
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 14px;
+  }
+  .contact-us-pos{
+    top: 8px;
+    right: 21px;
+  }
+  .category_text{
+    font-family: "Noiche";
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 21px;
+    color: #000;
+    padding-left: 8px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+  .text_area_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text_area_box textarea{
+    width: 516px;
+    height: 148px;
+    border-radius: 3px;
+    background: #ffecc8;
+    border: 0.6px solid rgb(148 148 148 / 50%);
+    padding-left: 12px;
+  
+  }
+  .category_text{
+    align-self: baseline;
+  }
+  textarea { resize: none; }
+  .contactus_form_data .send_button{
+    width: 124px;
+    height: 36px;
+    border-radius: 2px;
+    background: #bb3e03;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.26);
+    font-family: "Noiche";
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+    float: right;
+    margin-right: 11px;
+    margin-top: 12px;
+    border: none;
+  
+  }
+  .send_button img{
+    float: right;
+    padding-right: 10px;
+    padding-top: 6px;
+  }
