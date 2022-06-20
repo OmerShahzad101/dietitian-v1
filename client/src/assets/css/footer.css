@@ -17,7 +17,6 @@
 }
 .footer_linke  .nav_linke.nav {
     width: 377px;
-    
     justify-content: space-between;
     margin: auto;
 }
@@ -58,4 +57,15 @@
 }
 .footer_logo{
     max-width: 117px;
+}
+
+
+
+
+@media (max-width:480px) 
+
+{
+    .footer_linke .nav_linke.nav { 
+        flex-direction: column;
+    }
 }

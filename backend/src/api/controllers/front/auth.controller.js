@@ -2,6 +2,9 @@ const Contact = require("../../models/contact.model");
 const User = require("../../models/users.model");
 var request = require("request");
 const env = require("../../../config/vars");
+const {contactUs} = require("./emailTemplate/emailTemplate");
+const { SendEmail } = require("../../utils/email_Send");
+
 
 //creating Account API
 exports.register = async (req, res, next) => {
@@ -26,7 +29,6 @@ exports.register = async (req, res, next) => {
   //Store to DataBase
   email = email.toLowerCase();
   let user = await User.findOne({ email });
-  console.log(user);
   if (user) {
     return res
       .status(200)
@@ -44,7 +46,15 @@ exports.contact = async (req, res) => {
   let payload = { name, email, subject, message };
 
   let contact = await Contact.create(payload);
+  contactUsForm(payload)
   return res
     .status(200)
     .send({ status: true, message: "Thank you for filling the form!" });
 };
+
+function contactUsForm(payload) {
+  const{ email, subject, message } = payload;
+  const from = email;
+  const emailBody = contactUs.replace("{{Message}}", message);
+  SendEmail(from, subject, emailBody);
+}
