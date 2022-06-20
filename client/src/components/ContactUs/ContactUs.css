@@ -74,7 +74,7 @@
 }
 .subject_box_input {
   /* max-width: 462px; */
-  font-size: 24px;
+  font-size: 28px;
   height: 48px;
   border-radius: 6px;
   background: #fff;
@@ -93,7 +93,7 @@
   max-width: 864px;
   margin: 0 auto;
   justify-content: space-between;
-  padding-bottom: 12px;
+  padding-bottom: 22px;
 }
 .form_box_contact {
   padding: 80px 51px 125px;
@@ -120,7 +120,7 @@ svg.send_arrow {
   margin-left: 20px;
 }
 .language_select_box {
-  padding-top: 9px;
+  /* padding-top: 9px; */
   padding-bottom: 14px;
 }
 .contact-us-pos {
@@ -145,11 +145,10 @@ svg.send_arrow {
   margin: 0 auto;
 }
 .text_area_box textarea {
-  font-size: 24px;
+  font-size: 28px;
   max-width: 857px;
 
   width: 100%;
-  font-size: 22px;
   height: 184px;
   border-radius: 6px;
   background: #ffecc8;

@@ -3,9 +3,9 @@ import "./Privacy.css";
 import $ from "jquery"
 
 const Privacy = () => {
-  // useEffect(() =>{
-  //   $('html,body').animate({scrollTop: 0}, 'fast');
-  // },[])
+  useEffect(() =>{
+    $('html,body').animate({scrollTop: 0}, 'fast');
+  },[])
   return (
     <>
       <div className=" privacy_policy mt_top">
