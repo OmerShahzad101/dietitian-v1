@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Privacy.css";
+import "./Privacy.css"; 
 import $ from "jquery"
 
 const Privacy = () => {
@@ -49,7 +49,7 @@ const Privacy = () => {
               </p>
               <ul className="add-padd">
                 <li className="dolores">
-                  <p className="elit">Information You Provide Voluntarily.
+                  <p className="elit"><b>Information You Provide Voluntarily:</b>
                     <span>
                       We regularly receive and store any information you enter on the Platform or give us in any other way, whether it be
                       through filling out a form, or through an actual communication. You may elect to not provide certain information,
@@ -69,21 +69,21 @@ const Privacy = () => {
                   </p>
                 </li>
                 <li className="dolores">
-                  <p className="elit">Information Provided Automatically.
+                  <p className="elit"><b>Information Provided Automatically:</b>
                     <span>
                     Upon your use or interaction with the Platform, we automatically receive and store certain types of information. We obtain certain types of information when the browser you are using accesses the Platform or advertisements therein, and other content served on the Platform itself, or on behalf of the Platform through other web Platforms.
                     </span>
                   </p>
                 </li>
                 <li className="bullits">
-                    <p className="elitss">Non-Personal Information:
+                    <p className="elitss"><b>Non-Personal Information:</b>
                       <span>
                       We collect non-personally-identifying information of the sort that web browsers and servers typically make available upon their interaction with Platforms.  This information may include such things as the browser type used during the interaction, the language preference, the referring website, and the date and time of each visitor request.
                       </span>
                     </p>
                 </li>
                 <li className="bullits">
-                    <p className="elitss">Your IP Address:
+                    <p className="elitss"><b>Your IP Address:</b>
                       <span>
                         Your Internet Protocol (“IP”) address is a unique identifying code which is used in connecting your computer to the
                         Internet. Your IP Address may be used for various purposes, including to: (i) help us identify you, and your purchase
@@ -95,33 +95,33 @@ const Privacy = () => {
                     </p>
                 </li>
                 <li className="bullits">
-                    <p className="elitss">Device Identifier:
+                    <p className="elitss"><b>Device Identifier:</b>
                       <span>
                       We may provide services that allow users to visit, view, access and customize the Platform and other content through the use of their mobile devices such as:  phones, PDAs and other similar electronic devices. When the Platform is accessed through these devices rather than a computer, different information may be collected. When you visit or connect with the Platform through the use of a mobile device that has Internet accessibility, in the event that the mobile device service provider uniquely identifies the device, we will be able to receive this identifying information. We may use this unique device information to be able to offer extended services and/or functionality. Certain services, offers you elect to enroll in, or purchases you wish to make through the Platform may require the collection of the phone number for your device. We may associate and categorize the phone number collected along with the mobile device information.
                       </span>
                     </p>
                 </li>
                 <li className="bullits">
-                    <p className="elitss">Your Physical Location:
+                    <p className="elitss"><b>Your Physical Location:</b>
                       <span>
                        Some mobile phone service providers in the United States are required to operate using a certain functionality which pinpoints the physical location of any mobile devices currently using their service. Depending upon which service provider your device is enrolled with, and if you are visiting the Platform while you are located in the United States, we may automatically receive this information. We may use and store such information received in order to assist us in providing opportunities for services based on your location, as well as to assist with advertising which is targeted based on location.
                       </span>
                     </p>
                 </li>
                 <li className="bullits">
-                    <p className="elitss">Web Cookies:
+                    <p className="elitss"><b>Web Cookies:</b>
                       <span>
                        For advertising and other purposes as described below, we use a feature in your Internet Web browser called a “cookie,” which is a piece of information stored on your hard drive, that identifies your intra- and inter-requests on the Platform. Cookies may be used for various purposes, including the tracking of your preferences which you indicate while visiting or using the Platform. If you wish to disable the use of cookies, please review the Help section of your Internet browser, and review the instructions therein on how to turn off this feature. You can also indicate your choices regarding display advertising, through the use of specific platforms, which include but may not be limited to the Digital Advertising Alliance opt-out platform or the Network Advertising Initiative opt-out platform. To opt-out of these cookies, please visit the following URLs:
                       </span>
                     </p>
                     <ul>
-                      <li className="links"><a href="">www.aboutads.info/choices</a></li>
+                      <li className="links"><a href="javaScript(void)">www.aboutads.info/choices</a></li>
                       <li className="links"><a href="">allaboutcookies.org</a></li>
                       <li className="links"><a href="">youronlinechoices.eu</a></li>
                     </ul>
                 </li>
                 <li className="bullits">
-                    <p className="elitss">Beacons:
+                    <p className="elitss"><b>Beacons:</b>
                       <span>
                        Web pages included on the Platform may contain e-images called a “Web beacon,” also known as a “single-pixel GIF,” which allow a Platform to count the number of users who have visited that particular page or to access specific cookies and the information contained therein. We may use such Web beacons for the following purposes: (a) to count and determine the number of users and to recognize such users through the accessing of Platform cookies, (b) to count, determine, and recognize the number of users who have opened or read emails sent to the user by us, and (c) to assist in personalizing your interaction with the Platform to make the experience more efficient and enjoyable for you.
                       </span>
@@ -140,35 +140,35 @@ const Privacy = () => {
                lorem_padding              </p>
               <ul className="add-padd">
                 <li className="dolores">
-                  <p className="elit">News; Offers.
+                  <p className="elit"><b>News; Offers.</b>
                     <span>
                      In some instances, we may provide certain personal information which you input while registering or signing up to receive news, offers, updates, sweepstakes or contests, to trusted, third-party partners who work directly with us. Such third-parties may use that personal information to communicate with you about certain updates, offers or surveys from us and/or such third-parties.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
-                  <p className="elit">Independent Contractors and Third-Parties.
+                  <p className="elit"><b>Independent Contractors and Third-Parties:</b>
                     <span>
                      We may have third-party agents, subsidiaries, affiliates and partners who may perform certain functions on our behalf, such as marketing, analytics, research, credit card processing, assisting with customer service, fraud protection, etc. Such third-party entities have limited access only to the personal information necessary to perform the roles for which they are associated with us. Such third-parties are strictly prohibited from using, selling, distributing or altering this data in any way, or using the information for any activity other than required to provide the requested services for us and the Platform.  Any personal information shared with third-parties performing analytics shall be governed by a Data Processing Agreement, entered into by and between the Company and Google Analytics.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
-                    <p className="elit">Legal Disclosure.
+                    <p className="elit"><b>Legal Disclosure:</b>
                       <span>
                        In some instances, we may disclose and release certain information in response to any legal demand, such as subpoenas, court orders, or legal process, or to establish or exercise our legal rights or defend against legal actions or claims brought against us or the Platform. We may share such information in order to investigate, prevent or take action in the event of any alleged illegal activities, suspected fraud, potential threats to the physical or financial safety of any person or entity, any violations of our terms of service, or as otherwise permissible under any applicable law.
                       </span>
                     </p>
                 </li>
                 <li className="dolores">
-                    <p className="elit">Third-Party Advertisers.
+                    <p className="elit"><b>Third-Party Advertisers:</b>
                       <span>
                        In some instances, we may collect certain personal information about you and share it with other third-parties, to the extent that you grant permissible upon collection of such information. We may show certain targeted advertisements on the Platform during your use, based on personal information you provided to us upon registering your account. Advertisers (including ad serving companies) may assume that certain people who interact with, view or click on targeted ads, meet the targeting criteria (for example, women ages 18-24 from a particular geographic area). By clicking on or viewing a particular ad, you are thereby consenting to the possibility that the advertiser will make the assumption that you meet the targeting criteria used to determine whether to show you such an ad. We may gather certain personal information about you on behalf of a sponsor or advertiser who is facilitating a particular promotion. In such an instance, we will provide you with notice of such, at the time of the collection on the sponsor or advertiser’s behalf.  Upon doing so, we may link you to the sponsor or advertiser’s privacy policy.
                       </span>
                     </p>
                 </li>
                 <li className="dolores">
-                    <p className="elit">Sharing Within Organization.
+                    <p className="elit"><b>Sharing Within Organization:</b>
                       <span>
                        In some instances, we may share your personal information with any of our subsidiaries, joint ventures, or other companies or entities which fall under common control. In the event that we transition through merger, acquisition by another company, or sale of all or a portion of our assets, your personal information may be included and among the assets to be transferred in such a transition. You hereby acknowledge and agree that such transfers may occur, and that such transfers are permitted under the terms of this Privacy Policy
                       </span>
@@ -415,49 +415,49 @@ const Privacy = () => {
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    Right of Access: you have the right to be informed of, and request access to, the Personal Information we process about you.
+                    <b>Right of Access:</b> you have the right to be informed of, and request access to, the Personal Information we process about you.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                     Right to Rectification: you have the right to request that we amend or update your personal data where it is inaccurate or incomplete.
+                     <b>Right to Rectification:</b> you have the right to request that we amend or update your personal data where it is inaccurate or incomplete.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    Right to Erasure: you have the right to have the Company delete your Personal Information.
+                    <b>Right to Erasure:</b> you have the right to have the Company delete your Personal Information.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                     Right to Restrict: you have the right to request that we temporarily or permanently stop processing your Personal Information.
+                     <b>Right to Restrict:</b> you have the right to request that we temporarily or permanently stop processing your Personal Information.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    Right to Object: you have the right to object to us processing your Personal Information on grounds relating to your particular situation or for direct marketing purposes.
+                    <b>Right to Object:</b> you have the right to object to us processing your Personal Information on grounds relating to your particular situation or for direct marketing purposes.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    Right to Data Portability: you have the right to request a copy of your Personal Information in electronic format and the right to transmit that personal data for use in another party’s service.
+                    <b>Right to Data Portability:</b> you have the right to request a copy of your Personal Information in electronic format and the right to transmit that personal data for use in another party’s service.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    Right not to be Subject to Automated Decision Making: you have the right to not be subject to a decision based solely on automated decision making, including profiling, where the decision would have a legal effect on you or produce a similarly significant effect.
+                    <b>Right not to be Subject to Automated Decision Making:</b> you have the right to not be subject to a decision based solely on automated decision making, including profiling, where the decision would have a legal effect on you or produce a similarly significant effect.
                     </span>
                   </p>
                 </li>

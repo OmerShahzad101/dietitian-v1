@@ -32,7 +32,7 @@ const TermsAndCondition = () => {
               <p className="custom_padding">
               Prior to using the Site or Service, please be sure to thoroughly review and inspect all of the customer resources provided in the footers of the pages of the DYW Platform.  In addition, when using the Service, you shall be subject to any posted policies, guidelines or rules applicable thereto. All such policies, guidelines and rules are hereby incorporated by reference into the TOS. You further agree that, except as otherwise expressly provided in this TOS, there shall be no third-party beneficiaries to these TOS.
               </p>
-              <p className="elits">IF YOU DO NOT AGREE TO THE CURRENT TOS, PLEASE DO NOT USE THIS SERVICE, SINCE YOUR USE OF IT CONSTITUTES ACCEPTANCE OF ALL OF THE MOST CURRENT TOS FOR ITS USE.</p>
+              <p className="elits"><b>IF YOU DO NOT AGREE TO THE CURRENT TOS, PLEASE DO NOT USE THIS SERVICE, SINCE YOUR USE OF IT CONSTITUTES ACCEPTANCE OF ALL OF THE MOST CURRENT TOS FOR ITS USE.</b></p>
 
             </div>
           </div>
@@ -45,8 +45,8 @@ const TermsAndCondition = () => {
               <p className="custom_padding">
                The Company provides a web, app-based, and cloud-based Service in the form of a marketing and referral based directory, which is made available specifically to dietitians (users), on which said users may register, create a profile, and become part of a referral network of other dietitians.  Membership and access to the platform will provide users with the ability to have their dietitian profile listed on the platform, will allow users to receive referrals through the platform, and will allow users to connect with and/or communicate with other dietitians using the platform.  The platform also contains a collection of various types of content made available through the Service, which may be provided to users in the form of audio, video, and/or various text features.  This Content (as defined by Section 4 below) made available to users through the Site and Service is provided strictly for informational purposes.
               </p>
-              <p className="custom_padding">
-               THE SERVICE IS PROVIDED "AS IS" AND THE COMPANY ASSUMES NO LIABILITY NOR RESPONSIBILITY FOR: THE TIMELINESS OF THE SERVICE; ERRORS IN CONTENT PROVIDED ON OR THROUGH THE SERVICE; ERRORS IN, OR THE ACCURACY OF, ANY DATA OR INFORMATION PROVIDED THROUGH THE SERVICE; THE AUDIO AND/OR VIDEO QUALITY OF ANY CONTENT PROVIDED THROUGH THE SERVICE; ANY FAILURE OR DELAY IN THE TRANSMISSION OF ANY CONTENT TO BE PROVIDED THROUGH THE SERVICE; OR ANY DELETION OF, OR FAILURE TO STORE, ANY PARTICULAR INFORMATION, COMMUNICATION, OR WRITING.  ADDITIONALLY, THE COMPANY PROVIDES ANY AND ALL INFORMATION OR CONTENT MADE AVAILABLE THROUGH THE SERVICE, WITHOUT WARRANTY OF ANY KIND AND AS SUCH, THE COMPANY IS NOT RESPONSIBLE NOR LIABLE FOR THE ACCURACY, CONTENT, COMPLETENESS, LEGALITY, OR RELIABILITY OF SUCH CONTENT OR INFORMATION.
+              <p className="custom_padding" >
+               <b>THE SERVICE IS PROVIDED "AS IS" AND THE COMPANY ASSUMES NO LIABILITY NOR RESPONSIBILITY FOR: THE TIMELINESS OF THE SERVICE; ERRORS IN CONTENT PROVIDED ON OR THROUGH THE SERVICE; ERRORS IN, OR THE ACCURACY OF, ANY DATA OR INFORMATION PROVIDED THROUGH THE SERVICE; THE AUDIO AND/OR VIDEO QUALITY OF ANY CONTENT PROVIDED THROUGH THE SERVICE; ANY FAILURE OR DELAY IN THE TRANSMISSION OF ANY CONTENT TO BE PROVIDED THROUGH THE SERVICE; OR ANY DELETION OF, OR FAILURE TO STORE, ANY PARTICULAR INFORMATION, COMMUNICATION, OR WRITING.  ADDITIONALLY, THE COMPANY PROVIDES ANY AND ALL INFORMATION OR CONTENT MADE AVAILABLE THROUGH THE SERVICE, WITHOUT WARRANTY OF ANY KIND AND AS SUCH, THE COMPANY IS NOT RESPONSIBLE NOR LIABLE FOR THE ACCURACY, CONTENT, COMPLETENESS, LEGALITY, OR RELIABILITY OF SUCH CONTENT OR INFORMATION.</b>
               </p>
               <ul>
                 <li>
@@ -96,11 +96,11 @@ const TermsAndCondition = () => {
                   such dealings, are solely between you and the advertiser, and therefore subject to the advertiser’s terms of
                   service and privacy policy. You agree that the Company shall not be responsible nor liable for any loss or
                   damages incurred or sustained as the result of such dealings or as the result of the presence of such advertisers on
-                  the Service.  YOU MUST BE AT LEAST 18 YEARS OF AGE TO ACCESS AND USE ANY PORTIONS OF THE SERVICE.  IF YOU ARE ABOVE THE AGE OF 13, BUT BELOW THE LEGAL AGE MAJORITY, THIS SERVICE MAY ONLY BE USED WITH PARENTAL CONSENT AND SUPERVISION.  IF YOU ARE 13 YEARS OR YOUNGER, DO NOT USE THIS SERVICE FOR ANY PURPOSE AS IT IS NOT INTENDED FOR USE BY CHILDREN.
+                  the Service.  
                 </li>
                 <li>
 
-                   YOU MUST BE AT LEAST 18 YEARS OF AGE TO ACCESS AND USE ANY PORTIONS OF THE SERVICE.  IF YOU ARE ABOVE THE AGE OF 13, BUT BELOW THE LEGAL AGE MAJORITY, THIS SERVICE MAY ONLY BE USED WITH PARENTAL CONSENT AND SUPERVISION.  IF YOU ARE 13 YEARS OR YOUNGER, DO NOT USE THIS SERVICE FOR ANY PURPOSE AS IT IS NOT INTENDED FOR USE BY CHILDREN.
+                   <b>YOU MUST BE AT LEAST 18 YEARS OF AGE TO ACCESS AND USE ANY PORTIONS OF THE SERVICE.  IF YOU ARE ABOVE THE AGE OF 13, BUT BELOW THE LEGAL AGE MAJORITY, THIS SERVICE MAY ONLY BE USED WITH PARENTAL CONSENT AND SUPERVISION.  IF YOU ARE 13 YEARS OR YOUNGER, DO NOT USE THIS SERVICE FOR ANY PURPOSE AS IT IS NOT INTENDED FOR USE BY CHILDREN.</b>
 
                 </li>
               </ul>
@@ -188,15 +188,15 @@ const TermsAndCondition = () => {
 
               </ul>
               <p className="custom_padding">
-                WHILE THE COMPANY EXPLICITLY PROHIBITS THE ABOVE CONDUCT, YOU ACKNOWLEDGE AND AGREE THAT YOU MAY BE EXPOSED TO SUCH CONDUCT
+             <b>   WHILE THE COMPANY EXPLICITLY PROHIBITS THE ABOVE CONDUCT, YOU ACKNOWLEDGE AND AGREE THAT YOU MAY BE EXPOSED TO SUCH CONDUCT
                 AND CONTENT AND THAT YOU USE THE SERVICE ENTIRELY AT YOUR OWN RISK, AND THAT THE COMPANY SHALL HAVE NO LIABILITY OF ANY
                 KIND FOR SUCH CONDUCT AS CARRIED OUT BY ANY THIRD-PARTY AT ANY TIME, UNLESS EXPRESSLY SET FORTH TO THE CONTRARY BY THE
-                COMPANY IN WRITING.
+                COMPANY IN WRITING.</b>
               </p>
 
               <p>
-                YOU UNDERSTAND AND AGREE THAT IF YOU VIOLATE ANY OF THE RULES OF BEHAVIOR, THE COMPANY MAY TERMINATE YOUR USE OF THE
-                SERVICE IMMEDIATELY WITHOUT PRIOR NOTICE AND WITHOUT ANY RIGHT TO A REFUND, SET-OFF, OR HEARING.
+               <b> YOU UNDERSTAND AND AGREE THAT IF YOU VIOLATE ANY OF THE RULES OF BEHAVIOR, THE COMPANY MAY TERMINATE YOUR USE OF THE
+                SERVICE IMMEDIATELY WITHOUT PRIOR NOTICE AND WITHOUT ANY RIGHT TO A REFUND, SET-OFF, OR HEARING.</b>
               </p>
             </div>
           </div>

@@ -99,14 +99,15 @@ p.elit {
   padding-left: 25px;
 }
 p.elit span{
-  display: inline;
+  display: inline;  
+  padding-left: 7px;
   font-family: "Noiche";
   font-weight: 500;
-  font-size: 32px;
-  line-height: 32px;
-  display: inline;
-  color: #000;
-  padding-left: 7px;
+  font-size: 30px;
+  line-height: 33px;
+  text-align: left;
+  color: #000000ad;
+  text-align: justify;
 }
 p.elitss {
   font-weight: 600;
@@ -118,12 +119,12 @@ p.elitss {
 }
 p.elitss span{
   display: inline;
-  font-weight: 500;
-  font-size: 29px;
-  line-height: 32px;
-  display: inline;
-  color: #000000;
-  padding-left: 7px;
+  font-weight: 500;  
+  padding-left: 7px; 
+    font-size: 30px;
+    line-height: 33px;
+    text-align: left;
+    color: #000000ad;
 }
 ul li.links {
   margin-left: 30px;
@@ -314,12 +315,19 @@ p.lorens_padding {
   .privacy_header {
     padding: 0 25px;
   }
-  .privacy_policy p.con-1{
-    font-size: 25px;
+  ul li.links {
+    margin-left: 3px; 
+    margin-bottom: 12px;
+}
+  .privacy_policy p.con-1 {
+    font-size: 22px;
     margin-bottom: 0;
 }
   .lorem_wrapper ol p {
     padding-left: 12px;
+}
+p.elit span { 
+  font-size: 22px;
 }
 p.elitss span {
 
