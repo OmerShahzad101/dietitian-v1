@@ -1,6 +1,13 @@
 .privacy_policy .container {
   max-width: 1576px;
 }
+.lorem_wrapper ul.site-links{
+  margin-left: 200px;
+  margin-bottom: 32px;
+}
+.lorem_wrapper ul.site-links li{
+  margin-bottom: 8px;
+}
 .privacy_header h1 {
   font-family: "Noiche";
   font-weight: 600;
@@ -38,9 +45,16 @@
   padding-top: 10px;
   padding-left: 38px;
 }
+.lorem_wrapper ol.numbers{
+  margin-left: 23px;
+}
+.lorem_wrapper ol.numbers li span{
+  font-size: 30px;
+}
 .lorem_wrapper ul li.sub-con{
   /* max-width: 1576px; */
   list-style: disc;
+
   padding: 20px 0;
   margin: 0;
 }
@@ -75,7 +89,7 @@
   color: #000000ad;
   text-align: justify;
 }
- 
+
 .lorem_wrapper li {
   font-family: "Noiche";
   font-weight: 500;
@@ -108,7 +122,7 @@
   left: -37px;
   top: 4px;
 }
-p.elits { 
+p.elits {
   font-family: "Noiche";
   font-weight: 500;
   font-size: 30px;
@@ -213,6 +227,10 @@ ol.list_order li {
   }
   .lorem_wrapper li
   {font-size: 25px;}
+  .lorem_wrapper ul.site-links {
+    margin-left: 100px;
+    margin-bottom: 28px;
+}
 
 }
 @media (max-width: 1200px)
@@ -247,6 +265,10 @@ ol.list_order li {
 
 }
 @media (max-width: 1200px){
+  .lorem_wrapper ul.site-links {
+    margin-left: 100px;
+    margin-bottom: 28px;
+}
 .privacy_header {
     padding-left: 55px;
     padding-right: 55px;
@@ -271,11 +293,15 @@ ol.list_order li {
   .privacy_header {
     padding: 0 25px;
   }
+  .lorem_wrapper ul.site-links {
+    margin-left: 35px;
+    margin-bottom: 28px;
+}
   .privacy_header h1 {
     font-size: 35px;
     text-align: center;
   }
-  .lorem_wrapper ul.m-con { 
+  .lorem_wrapper ul.m-con {
     padding-left: 19px;
 }
 .privacy_header p {

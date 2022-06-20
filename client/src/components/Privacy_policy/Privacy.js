@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import "./Privacy.css"; 
+import "./Privacy.css";
 import $ from "jquery"
 
 const Privacy = () => {
-  useEffect(() =>{
-    $('html,body').animate({scrollTop: 0}, 'fast');
-  },[])
+  // useEffect(() =>{
+  //   $('html,body').animate({scrollTop: 0}, 'fast');
+  // },[])
   return (
     <>
       <div className=" privacy_policy mt_top">
@@ -104,17 +104,29 @@ const Privacy = () => {
                 <li className="bullits">
                     <p className="elitss"><b>Your Physical Location:</b>
                       <span>
-                       Some mobile phone service providers in the United States are required to operate using a certain functionality which pinpoints the physical location of any mobile devices currently using their service. Depending upon which service provider your device is enrolled with, and if you are visiting the Platform while you are located in the United States, we may automatically receive this information. We may use and store such information received in order to assist us in providing opportunities for services based on your location, as well as to assist with advertising which is targeted based on location.
+                       Some mobile phone service providers in the United States are required to operate using a certain functionality
+                        which pinpoints the physical location of any mobile devices currently using their service. Depending upon which
+                        service provider your device is enrolled with, and if you are visiting the Platform while you are located in the
+                        United States, we may automatically receive this information. We may use and store such information received in
+                        order to assist us in providing opportunities for services based on your location, as well as to assist with
+                        advertising which is targeted based on location.
                       </span>
                     </p>
                 </li>
                 <li className="bullits">
                     <p className="elitss"><b>Web Cookies:</b>
                       <span>
-                       For advertising and other purposes as described below, we use a feature in your Internet Web browser called a “cookie,” which is a piece of information stored on your hard drive, that identifies your intra- and inter-requests on the Platform. Cookies may be used for various purposes, including the tracking of your preferences which you indicate while visiting or using the Platform. If you wish to disable the use of cookies, please review the Help section of your Internet browser, and review the instructions therein on how to turn off this feature. You can also indicate your choices regarding display advertising, through the use of specific platforms, which include but may not be limited to the Digital Advertising Alliance opt-out platform or the Network Advertising Initiative opt-out platform. To opt-out of these cookies, please visit the following URLs:
+                       For advertising and other purposes as described below, we use a feature in your Internet Web browser called a
+                       “cookie,” which is a piece of information stored on your hard drive, that identifies your intra- and
+                       inter-requests on the Platform. Cookies may be used for various purposes, including the tracking of your
+                       preferences which you indicate while visiting or using the Platform. If you wish to disable the use of cookies,
+                       please review the Help section of your Internet browser, and review the instructions therein on how to turn off
+                       this feature. You can also indicate your choices regarding display advertising, through the use of specific
+                       platforms, which include but may not be limited to the Digital Advertising Alliance opt-out platform or the
+                        Network Advertising Initiative opt-out platform. To opt-out of these cookies, please visit the following URLs:
                       </span>
                     </p>
-                    <ul>
+                    <ul className="p-p-links">
                       <li className="links"><a href="javaScript(void)">www.aboutads.info/choices</a></li>
                       <li className="links"><a href="">allaboutcookies.org</a></li>
                       <li className="links"><a href="">youronlinechoices.eu</a></li>
@@ -137,7 +149,7 @@ const Privacy = () => {
               <span className="after_line">SHARING AND USE OF PERSONAL INFORMATION</span>
               <p className="custom_padding">
                In some instances, we may disclose certain information about you to third-parties whose practices are not governed or covered by this Privacy Policy. Due to the current and existing regulations, we are unable to specifically ensure that any or all of your personal information and private communications will not ever be disclosed in ways not covered or defined within the terms herein. One example of such activity may include the ability of third-parties to unlawfully intercept, access, or capture certain transmissions of information or private communications. If you wish for us to not disclose any personal information collected about you in any of the ways identified and described within this Privacy Policy, you should refrain from visiting or accessing the Platform or any related services.
-               lorem_padding              </p>
+                           </p>
               <ul className="add-padd">
                 <li className="dolores">
                   <p className="elit"><b>News; Offers.</b>
@@ -278,6 +290,33 @@ const Privacy = () => {
         <div className="lorem_para ">
           <div className="container">
             <div className="lorem_wrapper">
+              <span className="after_line">RETENTION, CORRECTION, AND DELETION OF PERSONAL INFORMATION</span>
+              <p className="custom_padding">
+                Personal Information that we process shall not be kept for longer than is necessary for the relevant purpose. We will
+                retain your Personal Information as follows:
+              </p>
+              <ul className="add-padd">
+                <li className="dolores">
+                  <p className="elit">
+                    <span>
+                     Personal Information will be retained for as long as you have a DYW member account (as described in our Terms of Service) or as required by law or our own backup and security policies.
+                    </span>
+                  </p>
+                </li>
+                <li className="dolores">
+                  <p className="elit">
+                    <span>
+                    We will comply with any user’s requests regarding access, correction, and/or deletion of the Personal Information we store in accordance with applicable law, including the EU General Data Protection Regulation (GDPR). To request that we correct, delete, or export any Personal Information, please send your request via email to: [Preferred Email Address].
+                    </span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="lorem_para ">
+          <div className="container">
+            <div className="lorem_wrapper">
               <span className="after_line">COOKIE POLICY </span>
               <p className="custom_padding">
                We use cookies on this Platform and Service.  By using the Service, you consent to the use of cookies.
@@ -354,6 +393,38 @@ const Privacy = () => {
                     </span>
                   </p>
                 </li>
+                <table className="tables">
+                  <tr>
+                    <th>Cookie Name</th>
+                    <th>Cookie Type</th>
+                    <th>Cookie Description</th>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td>  </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td> </td>
+                  </tr>
+                </table>
               </ul>
               <p className="custom_padding">
                 <b>
@@ -406,7 +477,7 @@ const Privacy = () => {
         </div>
         <div className="lorem_para ">
           <div className="container">
-            <div className="lorem_wrapper">
+            <div className="lorem_wrapper ">
               <span className="u-line after_line">YOUR RIGHTS UNDER THE EU GENERAL DATA PROTECTION REGULATION (GDPR) </span>
               <p className="custom_padding">
                Your principal rights under the EU General Data Protection Regulation (GDPR) are as follows:
@@ -415,49 +486,49 @@ const Privacy = () => {
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    <b>Right of Access:</b> you have the right to be informed of, and request access to, the Personal Information we process about you.
+                    Right of Access: you have the right to be informed of, and request access to, the Personal Information we process about you.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                     <b>Right to Rectification:</b> you have the right to request that we amend or update your personal data where it is inaccurate or incomplete.
+                    Right to Rectification: you have the right to request that we amend or update your personal data where it is inaccurate or incomplete.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    <b>Right to Erasure:</b> you have the right to have the Company delete your Personal Information.
+                    Right to Erasure: you have the right to have the Company delete your Personal Information.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                     <b>Right to Restrict:</b> you have the right to request that we temporarily or permanently stop processing your Personal Information.
+                     Right to Restrict:you have the right to request that we temporarily or permanently stop processing your Personal Information.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    <b>Right to Object:</b> you have the right to object to us processing your Personal Information on grounds relating to your particular situation or for direct marketing purposes.
+                    Right to Object: you have the right to object to us processing your Personal Information on grounds relating to your particular situation or for direct marketing purposes.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    <b>Right to Data Portability:</b> you have the right to request a copy of your Personal Information in electronic format and the right to transmit that personal data for use in another party’s service.
+                    Right to Data Portability:you have the right to request a copy of your Personal Information in electronic format and the right to transmit that personal data for use in another party’s service.
                     </span>
                   </p>
                 </li>
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    <b>Right not to be Subject to Automated Decision Making:</b> you have the right to not be subject to a decision based solely on automated decision making, including profiling, where the decision would have a legal effect on you or produce a similarly significant effect.
+                    Right not to be Subject to Automated Decision Making: you have the right to not be subject to a decision based solely on automated decision making, including profiling, where the decision would have a legal effect on you or produce a similarly significant effect.
                     </span>
                   </p>
                 </li>
@@ -469,11 +540,14 @@ const Privacy = () => {
         <div className="lorem_para ">
           <div className="container">
             <div className="lorem_wrapper">
+              <div className="add-more"></div>
               <span className="u-line after_line">DATA CONTROLLER AND HOW TO CONTACT US </span>
-              <p className="custom_padding">
-               The Personal Information we collect and process is controlled by Dietitian Your Way LLC, a Florida limited liability company located in the United States. You may contact us via email at: [Preferred Email Address].  Any and all Data Subject Access Requests (“DSAR’s”) may be submitted to the Company via email at: [Preferred Email Address].  Such DSAR’s shall be responded to within one month of receipt, unless applicable law requires a more expedited response.
+              <p className="custom_padding thin">
+                The Personal Information we collect and process is controlled by Dietitian Your Way LLC, a Florida limited liability company located in the United States. You may contact us via email at: [Preferred Email Address].  Any and all Data Subject Access Requests (“DSAR’s”) may be submitted to the Company via email at: [Preferred Email Address].  Such DSAR’s shall be responded to within one month of receipt, unless applicable law requires a more expedited response.
               </p>
+
             </div>
+            <div className="add-space"></div>
           </div>
         </div>
       </div>

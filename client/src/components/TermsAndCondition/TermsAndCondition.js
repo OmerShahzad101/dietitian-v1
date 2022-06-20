@@ -11,7 +11,7 @@ const TermsAndCondition = () => {
      <div className=" privacy_policy mt_top">
         <div className="privacy_header">
           <div className="container">
-            <h1>Terms and Condition</h1>
+            <h1>Terms of Service</h1>
             <p>Last modified on December 17, 2021</p>
           </div>
         </div>
@@ -46,7 +46,13 @@ const TermsAndCondition = () => {
                The Company provides a web, app-based, and cloud-based Service in the form of a marketing and referral based directory, which is made available specifically to dietitians (users), on which said users may register, create a profile, and become part of a referral network of other dietitians.  Membership and access to the platform will provide users with the ability to have their dietitian profile listed on the platform, will allow users to receive referrals through the platform, and will allow users to connect with and/or communicate with other dietitians using the platform.  The platform also contains a collection of various types of content made available through the Service, which may be provided to users in the form of audio, video, and/or various text features.  This Content (as defined by Section 4 below) made available to users through the Site and Service is provided strictly for informational purposes.
               </p>
               <p className="custom_padding" >
-               <b>THE SERVICE IS PROVIDED "AS IS" AND THE COMPANY ASSUMES NO LIABILITY NOR RESPONSIBILITY FOR: THE TIMELINESS OF THE SERVICE; ERRORS IN CONTENT PROVIDED ON OR THROUGH THE SERVICE; ERRORS IN, OR THE ACCURACY OF, ANY DATA OR INFORMATION PROVIDED THROUGH THE SERVICE; THE AUDIO AND/OR VIDEO QUALITY OF ANY CONTENT PROVIDED THROUGH THE SERVICE; ANY FAILURE OR DELAY IN THE TRANSMISSION OF ANY CONTENT TO BE PROVIDED THROUGH THE SERVICE; OR ANY DELETION OF, OR FAILURE TO STORE, ANY PARTICULAR INFORMATION, COMMUNICATION, OR WRITING.  ADDITIONALLY, THE COMPANY PROVIDES ANY AND ALL INFORMATION OR CONTENT MADE AVAILABLE THROUGH THE SERVICE, WITHOUT WARRANTY OF ANY KIND AND AS SUCH, THE COMPANY IS NOT RESPONSIBLE NOR LIABLE FOR THE ACCURACY, CONTENT, COMPLETENESS, LEGALITY, OR RELIABILITY OF SUCH CONTENT OR INFORMATION.</b>
+               THE SERVICE IS PROVIDED "AS IS" AND THE COMPANY ASSUMES NO LIABILITY NOR RESPONSIBILITY FOR: THE TIMELINESS OF THE
+               SERVICE; ERRORS IN CONTENT PROVIDED ON OR THROUGH THE SERVICE; ERRORS IN, OR THE ACCURACY OF, ANY DATA OR INFORMATION
+               PROVIDED THROUGH THE SERVICE; THE AUDIO AND/OR VIDEO QUALITY OF ANY CONTENT PROVIDED THROUGH THE SERVICE; ANY FAILURE
+               OR DELAY IN THE TRANSMISSION OF ANY CONTENT TO BE PROVIDED THROUGH THE SERVICE; OR ANY DELETION OF, OR FAILURE TO STORE,
+               ANY PARTICULAR INFORMATION, COMMUNICATION, OR WRITING.  ADDITIONALLY, THE COMPANY PROVIDES ANY AND ALL INFORMATION OR
+               CONTENT MADE AVAILABLE THROUGH THE SERVICE, WITHOUT WARRANTY OF ANY KIND AND AS SUCH, THE COMPANY IS NOT RESPONSIBLE NOR
+               LIABLE FOR THE ACCURACY, CONTENT, COMPLETENESS, LEGALITY, OR RELIABILITY OF SUCH CONTENT OR INFORMATION.
               </p>
               <ul>
                 <li>
@@ -96,12 +102,12 @@ const TermsAndCondition = () => {
                   such dealings, are solely between you and the advertiser, and therefore subject to the advertiser’s terms of
                   service and privacy policy. You agree that the Company shall not be responsible nor liable for any loss or
                   damages incurred or sustained as the result of such dealings or as the result of the presence of such advertisers on
-                  the Service.  
+                  the Service.
                 </li>
                 <li>
-
-                   <b>YOU MUST BE AT LEAST 18 YEARS OF AGE TO ACCESS AND USE ANY PORTIONS OF THE SERVICE.  IF YOU ARE ABOVE THE AGE OF 13, BUT BELOW THE LEGAL AGE MAJORITY, THIS SERVICE MAY ONLY BE USED WITH PARENTAL CONSENT AND SUPERVISION.  IF YOU ARE 13 YEARS OR YOUNGER, DO NOT USE THIS SERVICE FOR ANY PURPOSE AS IT IS NOT INTENDED FOR USE BY CHILDREN.</b>
-
+                   <b><i>YOU MUST BE AT LEAST 18 YEARS OF AGE TO ACCESS AND USE ANY PORTIONS OF THE SERVICE.  IF YOU ARE ABOVE THE AGE OF
+                    13, BUT BELOW THE LEGAL AGE MAJORITY, THIS SERVICE MAY ONLY BE USED WITH PARENTAL CONSENT AND SUPERVISION.  IF YOU
+                    ARE 13 YEARS OR YOUNGER, DO NOT USE THIS SERVICE FOR ANY PURPOSE AS IT IS NOT INTENDED FOR USE BY CHILDREN.</i></b>
                 </li>
               </ul>
             </div>
@@ -127,6 +133,23 @@ const TermsAndCondition = () => {
                 <li className="sub-con">
                  You shall not take any action which may subject other users or the public to (a) anything that promotes or distributes
                  pyramid schemes or chain letters, or (b) other disruptive, illegal or immoral communications of any kind.
+                </li>
+                <li className="sub-con">
+                You shall not take any action which could potentially exploit or harm children by exposing them to inappropriate content,
+                asking for personally identifiable details or information, or otherwise exposing them to materials or information which
+                in any way could cause damage, injury, or harm of any kind.
+                </li>
+
+                <li className="sub-con">
+                You shall not take any action which may subject other users or the public to anything which harvests or otherwise
+                collects information about other users, including without limitation addresses, phone numbers, e-mail addresses,
+                and/or financial information of any kind, without the users’ prior express consent in each instance.
+                </li>
+                <li className="sub-con">
+                 You shall not take any action which may subject other users or the public to anything that advertises any commercial
+                 ndeavor (e.g., offering for sale any products or services) or otherwise engages in any commercial activity
+                 (e.g., conducting raffles or contests, displaying sponsorship banners, and/or soliciting goods or services),
+                or solicits funds, advertisers or sponsors for any purpose.
                 </li>
                 <li className="sub-con">
                  You shall not take any action that infringes any patent, trademark, copyright, trade secret or other intellectual
@@ -188,15 +211,14 @@ const TermsAndCondition = () => {
 
               </ul>
               <p className="custom_padding">
-             <b>   WHILE THE COMPANY EXPLICITLY PROHIBITS THE ABOVE CONDUCT, YOU ACKNOWLEDGE AND AGREE THAT YOU MAY BE EXPOSED TO SUCH CONDUCT
+              WHILE THE COMPANY EXPLICITLY PROHIBITS THE ABOVE CONDUCT, YOU ACKNOWLEDGE AND AGREE THAT YOU MAY BE EXPOSED TO SUCH CONDUCT
                 AND CONTENT AND THAT YOU USE THE SERVICE ENTIRELY AT YOUR OWN RISK, AND THAT THE COMPANY SHALL HAVE NO LIABILITY OF ANY
                 KIND FOR SUCH CONDUCT AS CARRIED OUT BY ANY THIRD-PARTY AT ANY TIME, UNLESS EXPRESSLY SET FORTH TO THE CONTRARY BY THE
-                COMPANY IN WRITING.</b>
+                COMPANY IN WRITING.
               </p>
-
               <p>
-               <b> YOU UNDERSTAND AND AGREE THAT IF YOU VIOLATE ANY OF THE RULES OF BEHAVIOR, THE COMPANY MAY TERMINATE YOUR USE OF THE
-                SERVICE IMMEDIATELY WITHOUT PRIOR NOTICE AND WITHOUT ANY RIGHT TO A REFUND, SET-OFF, OR HEARING.</b>
+                YOU UNDERSTAND AND AGREE THAT IF YOU VIOLATE ANY OF THE RULES OF BEHAVIOR, THE COMPANY MAY TERMINATE YOUR USE OF THE
+                SERVICE IMMEDIATELY WITHOUT PRIOR NOTICE AND WITHOUT ANY RIGHT TO A REFUND, SET-OFF, OR HEARING.
               </p>
             </div>
           </div>
@@ -234,23 +256,43 @@ const TermsAndCondition = () => {
                  The Company respects the intellectual property of others and the Company requests its users do the same. In certain circumstances and at its discretion, the Company may, but is not obligated to disable, suspend and terminate the accounts of members who may be infringing on the rights of others. If you believe that your intellectual property has been copied in a way that constitutes copyright infringement, or your intellectual property rights have otherwise been violated, please contact the Company as soon as practically possible with the following information:
                 </li>
               </ul>
-              <ol>
+              <ol className="numbers">
                 <li><span> 1.</span>
-                 an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
+                 An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright or other intellectual property interest;
                 </li>
                 <li><span>2.</span>
-                 a description of where the material you claim is infringing is located on the site;
+                 A description of where the material you claim is infringing is located on the site;
                 </li>
                 <li><span>3.</span>
-                 your name, address, telephone number, and email address;
+                 Your name, address, telephone number, and email address;
                 </li>
-                <li><span>4.</span> a statement claiming that you have a good faith belief that the disputed use has not been authorized; and</li>
-                <li><span>5.</span> a statement by you made under penalty of perjury, that the above information is accurate and that you are the copyright or intellectual property holder or are authorized to act on behalf of the holder.</li>
+                <li><span>4.</span> A statement claiming that you have a good faith belief that the disputed use has not been authorized; and</li>
+                <li><span>5.</span> A statement by you made under penalty of perjury, that the above information is accurate and that you are the copyright or intellectual property holder or are authorized to act on behalf of the holder.</li>
               </ol>
               <ul>
                 <li>
                 Upon receiving a sufficient and proper notification of alleged copyright infringement as described above, the Company will remove or disable access to the allegedly infringing content and promptly notify the alleged infringer of your claim. Please submit your statement to the Company by mail, fax or email as set forth below:
                 </li>
+              </ul>
+              <ul className="site-links">
+                <li>
+                  <b>Dietitian Your Way LLC</b>
+                </li>
+                <li>
+                 <b>DietitianYourWay.com</b>
+                </li>
+                  <li>
+                    <b>
+                     Email: [Preferred Email Address]
+                    </b>
+                </li>
+              </ul>
+              <ul className="site-links">
+                <li>
+                  <b>Mailing Address:</b>
+                </li>
+                <li><b>Dietitian Your Way LLC Copyright Agent</b></li>
+                <li><b>[Preferred Mailing Address]</b></li>
               </ul>
             </div>
           </div>
@@ -293,76 +335,7 @@ const TermsAndCondition = () => {
                 <li className="sub-con">
                  <b>REFUNDS:</b>  The Company shall be under no obligation to refund any payments made to the Company, regardless of whether such payments are made for the purpose of compensation for the provision of the Services purchased through the Site, or for any other services which may be provided by the Company.  However, the Company may in its sole discretion, elect to offer a refund to users on a case-by-case basis.  Company’s election to offer a refund to a user in one particular instance, shall in no way waive Company’s right to decline any refund requests received by Company from any user, for the same or any similar instance.
                 </li>
-                <li className="sub-con">
-                 You shall not take any action that infringes any patent, trademark, copyright, trade secret or other intellectual
-                 property or other legal right of another user or of any third-party without prior written permission from said user or
-                 third-party in each instance, which written permission you agree to disclose to the Company at any time upon Company’s
-                 request (subject to all applicable laws). You shall not intentionally download any material that you know or should
-                 reasonably know cannot be distributed legally.
-                </li>
-                <li className="sub-con">
-                 You shall not impersonate another person, group of people, or entity at any time, and the prohibition of such activities
-                 shall also include not using anyone else's username or password.
-                </li>
-                <li className="sub-con">
-                 You shall not use the Site or Service for any illegal, immoral, or unauthorized purpose.
-                </li>
-                <li className="sub-con">
-                 You shall abide by all applicable Federal, State and local laws at all times. If you are outside of the United States,
-                 you shall comply with any and all local laws as well with respect to your online conduct, including without limitation, t
-                 he exportation of data to the United States or to your country or residence.
-                </li>
-                <li className="sub-con">
-                 You shall not modify, edit, or delete any Content or communications of the Site or Service and/or of other users of the
-                 Service.
-                </li>
-                <li className="sub-con">
-                 You shall not transmit any viruses, worms, defects, Trojan Horses or any items and/or computer code, files or programs of
-                 a destructive nature and/or otherwise designed to interrupt or limit the functionality of any computer software or
-                 hardware or telecommunications device.
-                </li>
-                <li className="sub-con">
-                 You shall not transmit or allow access or distribution of any spiders, robots or other information gathering computer
-                 programs or routines or their equivalents on the Site or in the Service.
-                </li>
-                <li className="sub-con">
-                 You shall not take any action which disrupts the normal flow of Content on the Site, or otherwise take any action which
-                 affects the ability of other people to engage in real-time activities through the Site.
-                </li>
-                <li className="sub-con">
-                 You shall not interfere with or disrupt the Site, the Service, the servers, or networks connected with the Site or
-                 Service, or disobey any requirements, procedures, policies or regulations of networks connected to the Site or Service.
-                </li>
-                <li className="sub-con">
-                 You shall not create member accounts under any false or fraudulent pretenses (including by automated means).
-                </li>
-                <li className="sub-con">
-                 You shall not retrieve, store or collect personal information about any user for any unauthorized purpose, and may not
-                  retrieve, store, or collect personal information about any user for any valid purpose without such user’s prior written
-                  consent in each instance (and acknowledgment that they are at least 13 years of age).
-                </li>
-                <li className="sub-con">
-                 You shall not engage in any "spamming" of any kind, including without limitation ad spamming.
-                </li>
-                <li className="sub-con">
-                 You shall not use the Company’s or Site’s name or trademarks or related trade names, which you acknowledge here to be
-                 valid, subsisting and enforceable without impediment, and you will not expressly or by implication create the false or
-                 misleading impression that the Company or the Site is associated with, or endorses, or is in any way connected with you
-                 or your business.
-                </li>
-
               </ul>
-              <p className="custom_padding">
-                WHILE THE COMPANY EXPLICITLY PROHIBITS THE ABOVE CONDUCT, YOU ACKNOWLEDGE AND AGREE THAT YOU MAY BE EXPOSED TO SUCH CONDUCT
-                AND CONTENT AND THAT YOU USE THE SERVICE ENTIRELY AT YOUR OWN RISK, AND THAT THE COMPANY SHALL HAVE NO LIABILITY OF ANY
-                KIND FOR SUCH CONDUCT AS CARRIED OUT BY ANY THIRD-PARTY AT ANY TIME, UNLESS EXPRESSLY SET FORTH TO THE CONTRARY BY THE
-                COMPANY IN WRITING.
-              </p>
-
-              <p>
-                YOU UNDERSTAND AND AGREE THAT IF YOU VIOLATE ANY OF THE RULES OF BEHAVIOR, THE COMPANY MAY TERMINATE YOUR USE OF THE
-                SERVICE IMMEDIATELY WITHOUT PRIOR NOTICE AND WITHOUT ANY RIGHT TO A REFUND, SET-OFF, OR HEARING.
-              </p>
             </div>
           </div>
         </div>
@@ -381,7 +354,9 @@ const TermsAndCondition = () => {
             <div className="lorem_wrapper">
               <span className="u-line after_line"> No Resale of Service<i className=""></i> </span>
               <p className="custom_padding">
-               Through the Service, the Company or other third-parties may provide links to other websites or resources, which are not maintained by or related to the Site or Service. Links to such sites are provided as a service to the users and are not sponsored by, endorsed or otherwise affiliated with the Company. The Company has no control over these sites and their content, and makes no representations or warranties about the content, completeness, quality or accuracy of the links, materials or information contained on any such website. Therefore, you acknowledge and agree that the Company is not responsible for the availability of such links, resources and content, and does not endorse, and is not responsible or liable for, any content, advertising, products, or other materials made available on or from these linked websites. You also acknowledge and agree that the Company is not responsible nor liable, directly or indirectly, for any damage or loss caused by, or alleged to have been caused by, or in relation to, the use of any materials, goods or services offered through these links or any failures and/or disruption to your computer or mobile system that results from your use of any such links, or for any intellectual property infringement claims, or other third-party claims relating to your posting of, or use of such links.
+              You agree not to, without the express prior written consent of the Company in each instance: reproduce, duplicate, copy,
+              sell, resell, or exploit, for any commercial or other purposes, any portion of the Service or Content or other information
+              or materials of any kind that you do not own.
               </p>
             </div>
           </div>
@@ -523,7 +498,24 @@ const TermsAndCondition = () => {
             <div className="lorem_wrapper">
               <span className="u-line after_line">Limitation of Liability<i className=""></i> </span>
               <p className="custom_padding">
-               You expressly understand and agree that the Company will not be liable to you for any direct, indirect, incidental, special, consequential, exemplary, or punitive damages, including but not limited to, damages incurred by you or any third party as a result of any damages for any loss of, damage to, or corruption of any video content uploaded to or transmitted through the platform, any damages for loss of profits, goodwill, use, data, other intangible losses, costs, fees, monetary losses, or losses of other benefits, even if the Company has been advised of the possibility of such damages or such damages were reasonably foreseeable, resulting from the use or the inability to use Site or Services themselves, or resulting from any decisions made based on any Content or information provided through the Site or Service, or through the use of and/or reliance upon any Content or information offered through the Site or Service, unauthorized access to or alteration of your transmissions or data, statements or conduct of any third-party including advertisers on the Site or Service, the cost of procurement of substitute goods or services resulting from any services, data, or information purchased or obtained or messages received or transactions entered into through or from the Site or Service, and/or any other matter relating to the Site or Service. Under no circumstance shall the Company be liable to you or any third-party for any claims by third-parties arising out of your use of the Site or Service, or as a result of any Content you have transmitted therethrough, or products/services you may have promoted or advertised thereon.  This shall include, but not be limited to any claims arising out of advertisements promoting professional services.  In no event will the Company be liable to you for any amount of money over One Hundred U.S. Dollars ($100.00), which you acknowledge to be a fair and reasonable sum in the event of any loss by you of any kind.
+
+               You expressly understand and agree that the Company will not be liable to you for any direct, indirect, incidental,
+               special, consequential, exemplary, or punitive damages, including but not limited to, damages incurred by you or any
+               third party as a result of any damages for any loss of, damage to, or corruption of any video content uploaded to or
+               transmitted through the platform, any damages for loss of profits, goodwill, use, data, other intangible losses, costs,
+               fees, monetary losses, or losses of other benefits, even if the Company has been advised of the possibility of such
+               damages or such damages were reasonably foreseeable, resulting from the use or the inability to use Site or Services
+               themselves, or resulting from any decisions made based on any Content or information provided through the Site or Service,
+               or through the use of and/or reliance upon any Content or information offered through the Site or Service, unauthorized
+               access to or alteration of your transmissions or data, statements or conduct of any third-party including advertisers on
+               the Site or Service, the cost of procurement of substitute goods or services resulting from any services, data, or
+               information purchased or obtained or messages received or transactions entered into through or from the Site or Service,
+               and/or any other matter relating to the Site or Service. Under no circumstance shall the Company be liable to you or any
+               third-party for any claims by third-parties arising out of your use of the Site or Service, or as a result of any Content
+               you have transmitted therethrough, or products/services you may have promoted or advertised thereon.  This shall include,
+               but not be limited to any claims arising out of advertisements promoting professional services.  In no event will the
+               Company be liable to you for any amount of money over One Hundred U.S. Dollars ($100.00), which you acknowledge to be a
+               fair and reasonable sum in the event of any loss by you of any kind.
               </p>
             </div>
           </div>
@@ -543,17 +535,42 @@ const TermsAndCondition = () => {
             <div className="lorem_wrapper">
               <span className="u-line after_line">Dietary and Medical Information/Advice Disclaimer<i className=""></i> </span>
               <p className="custom_padding">
-               YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE COMPANY WILL NOT BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY FORM OF COST, DAMAGE, OR LOSS RESULTING FROM YOUR USE OF THE PLATFORM OR SERVICE, YOUR INABILITY TO USE THE PLATFORM OR SERVICE, YOUR RELIANCE UPON ANY CONTENT OR INFORMATION CONTAINED ON OR PROVIDED THROUGH THE PLATFORM OR SERVICE, OR ANY BUG, ERROR, OR MALFUNCTION INCURRING WITHIN THE PLATFORM OR SERVICE OR THE SYSTEMS OF ANY THIRD-PARTY APPLICATION, REGARDLESS OF WHETHER OR NOT THE SAME WAS OR MAY HAVE BEEN FORESEEABLE.
+              <b>
+               YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE COMPANY WILL NOT BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+               SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY FORM OF COST, DAMAGE, OR LOSS RESULTING FROM YOUR
+               USE OF THE PLATFORM OR SERVICE, YOUR INABILITY TO USE THE PLATFORM OR SERVICE, YOUR RELIANCE UPON ANY CONTENT OR
+               INFORMATION CONTAINED ON OR PROVIDED THROUGH THE PLATFORM OR SERVICE, OR ANY BUG, ERROR, OR MALFUNCTION INCURRING
+                WITHIN THE PLATFORM OR SERVICE OR THE SYSTEMS OF ANY THIRD-PARTY APPLICATION, REGARDLESS OF WHETHER OR NOT THE SAME
+                WAS OR MAY HAVE BEEN FORESEEABLE.
+              </b>
               </p>
               <ul>
                 <li>
-                 The Platform and Service do not contain any form of dietary, medical, or other professional advice, nor does Company provide the same. The Content of the Platform or Service, such as videos, audio content, text, graphics, images and other material are intended for informational purposes only and not for the purpose of rendering any dietary, medical, or other professional advice or consulting of any sort. The Content of the Platform or Service is not intended to substitute for professional dietary or medical advice. Although the Company takes efforts to keep information on the Platform updated, the Company cannot guarantee that the information on the Company’s Platform reflects the most up-to-date research.
+                  <b>
+                  The Platform and Service do not contain any form of dietary, medical, or other professional advice, nor does Company
+                  provide the same. The Content of the Platform or Service, such as videos, audio content, text, graphics, images and
+                  other material are intended for informational purposes only and not for the purpose of rendering any dietary, medical,
+                  or other professional advice or consulting of any sort. The Content of the Platform or Service is not intended to
+                  substitute for professional dietary or medical advice. Although the Company takes efforts to keep information on the
+                  Platform updated, the Company cannot guarantee that the information on the Company’s Platform reflects the most
+                  up-to-date research.
+                  </b>
                 </li>
                 <li>
-                 Please consult your dietician, physician, or other appropriate medical professional for personalized dietary, medical, or other professional advice. Never disregard or delay seeking medical advice or consulting of any sort, because of something you have read on the Company’s Platform or through the Service.
+                  <b>
+                 Please consult your dietician, physician, or other appropriate medical professional for personalized dietary,
+                 medical, or other professional advice. Never disregard or delay seeking medical advice or consulting of any sort,
+                 because of something you have read on the Company’s Platform or through the Service.
+                 </b>
                 </li>
-                <li>
-                 Not all Content, products, services, techniques, or activities described on the Platform or through the Service are suitable for everyone.  The Company does not recommend or endorse any specific diets, fitness programs, services, products, processes, techniques, or any other information or Content provided on its Platform or through the Service. Reliance on any Content or information provided by the Company, its employees, any third-parties, or any other visitors to the Platform, is solely at your own risk.  You understand and agree that you are solely responsible for your use of the Platform and Service.
+                <li> <b>
+                 Not all Content, products, services, techniques, or activities described on the Platform or through the Service are
+                 suitable for everyone.  The Company does not recommend or endorse any specific diets, fitness programs, services,
+                 products, processes, techniques, or any other information or Content provided on its Platform or through the Service.
+                 Reliance on any Content or information provided by the Company, its employees, any third-parties, or any other
+                 visitors to the Platform, is solely at your own risk.  You understand and agree that you are solely responsible for
+                 your use of the Platform and Service.
+                 </b>
                 </li>
               </ul>
             </div>

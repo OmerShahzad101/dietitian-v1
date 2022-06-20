@@ -21,7 +21,7 @@ const HomeContactUs = () => {
     subject: yup.string().required("Subject is required"),
     message: yup.string().required("Message is required"),
   });
-  
+
   const {register,handleSubmit, formState: { errors }, reset} = useForm({ resolver: yupResolver(schema) });
   const onSubmitHandler = (data) => {
     setIsLoading(true);
@@ -52,7 +52,7 @@ const HomeContactUs = () => {
         <div className="contactus_form_data">
           <div className="text-center contact_us_data">
             <h5>Need Help?</h5>
-            <span>Contact Us</span>
+            <span>CONTACT US</span>
             <p>
               Please fill out the form and someone from our team will get back to you.{" "}
             </p>
@@ -94,7 +94,7 @@ const HomeContactUs = () => {
                     {...register("subject")}
                   />
                     <span className="error">{errors.subject?.message}</span>
-                    
+
                   </div>
                 </div>
               </div>
@@ -109,7 +109,9 @@ const HomeContactUs = () => {
               <div className="send_btn">
                 <button className="send_button" type="submit">
                   Send
-                  <img src={rightarrow} alt="rightarrow" />
+                  <svg xmlns="http://www.w3.org/2000/svg" width="5.771" height="9.608" viewBox="0 0 5.771 9.608"className="send_arrow" >
+  <path id="Stroke-1"  d="M.121.121a.415.415,0,0,1,.54-.04l.047.04L4.286,3.7,7.865.121A.415.415,0,0,1,8.4.081l.047.04a.415.415,0,0,1,.04.54l-.04.047L4.58,4.58a.415.415,0,0,1-.54.04l-.047-.04L.121.708A.415.415,0,0,1,.121.121Z" transform="translate(0.535 9.108) rotate(-90)" fill="#fff" stroke-width="1"/>
+</svg>
                 </button>
               </div>
             </div>

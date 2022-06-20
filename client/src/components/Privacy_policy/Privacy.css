@@ -79,6 +79,15 @@ p{
   position: relative;
   margin-bottom: 20px;
 }
+.lorem_para p.thin{
+  font-weight: 500;
+}
+.lorem_wrapper ul.p-p-links {
+  margin-left: 50px;
+}
+ /* .lorem_para .add-space{
+  margin: 13px 0;
+} */
 .lorem_wrapper li.bullits{
   padding-left: 24px;
 }
@@ -99,7 +108,7 @@ p.elit {
   padding-left: 25px;
 }
 p.elit span{
-  display: inline;  
+  display: inline;
   padding-left: 7px;
   font-family: "Noiche";
   font-weight: 500;
@@ -117,10 +126,24 @@ p.elitss {
   color: #000000;
   padding-left: 25px;
 }
+table {
+  border:1px solid black;
+  width: 100%;
+}
+th, td {
+  border:1px solid black;
+}
+table tr th{
+  font-size: 30px;
+  text-align: center;
+}
+table td{
+  padding: 23px 0;
+}
 p.elitss span{
   display: inline;
-  font-weight: 500;  
-  padding-left: 7px; 
+  font-weight: 500;
+  padding-left: 7px;
     font-size: 30px;
     line-height: 33px;
     text-align: left;
@@ -309,15 +332,26 @@ p.lorens_padding {
 .privacy_policy p {
   font-size: 25px;
 }
+table tr th {
+  font-size: 18px;
+  
+}
 }
 
 @media (max-width: 578px){
+  .lorem_wrapper ul.p-p-links {
+    margin-left: 30px;
+}
+table tr th {
+  font-size: 14px;
+  text-align: center;
+}
   .privacy_header {
     padding: 0 25px;
   }
   ul li.links {
-    margin-left: 3px; 
-    margin-bottom: 12px;
+    margin-left: 3px;
+
 }
   .privacy_policy p.con-1 {
     font-size: 22px;
@@ -326,8 +360,8 @@ p.lorens_padding {
   .lorem_wrapper ol p {
     padding-left: 12px;
 }
-p.elit span { 
-  font-size: 22px;
+p.elit span {
+  font-size: 24px;
 }
 p.elitss span {
 

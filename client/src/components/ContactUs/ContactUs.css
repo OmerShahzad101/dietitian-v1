@@ -26,6 +26,17 @@
   max-width: 1256px;
   margin: 0 auto;
 }
+/* path#Stroke-1:hover {
+  fill: aqua!important;
+} */
+/* .send_button svg{
+  font-weight: ;
+} */
+.send_button:hover svg {
+  /* fill: red; */
+  stroke: #bb3e03;
+  font-weight: 700;
+}
 .contactus_form_data {
   min-height: 782px;
   margin: 165px 0px;
@@ -63,6 +74,7 @@
 }
 .subject_box_input {
   /* max-width: 462px; */
+  font-size: 24px;
   height: 48px;
   border-radius: 6px;
   background: #fff;
@@ -87,7 +99,7 @@
   padding: 80px 51px 125px;
 }
 
-.text_area_box span.error { 
+.text_area_box span.error {
   width: 91%;
 }
 .language_select_box select {
@@ -103,6 +115,9 @@
   padding-left: 12px;
   font-size: 22px;
   color: #e4cb9d;
+}
+svg.send_arrow {
+  margin-left: 20px;
 }
 .language_select_box {
   padding-top: 9px;
@@ -130,7 +145,9 @@
   margin: 0 auto;
 }
 .text_area_box textarea {
+  font-size: 24px;
   max-width: 857px;
+
   width: 100%;
   font-size: 22px;
   height: 184px;
@@ -156,7 +173,7 @@ textarea {
   font-size: 26px;
   color: #fff;
   float: right;
-  margin-right: 11px;
+  margin-right: 22px;
   margin-top: 31px;
   border: none;
   padding-top: 0;
@@ -172,7 +189,7 @@ textarea {
   margin: 0 auto;
 }
 span.category_text.custom_meagge_category {
-  padding-left: 46px;
+  padding-left: 42px;
 }
 span.text-start.category_text {
   padding-left: 0;
@@ -213,12 +230,17 @@ textarea::-webkit-input-placeholder {
     padding-top: 14px;
     padding-bottom: 31px;
   }
+  .contactus_form_data .send_button {
+
+    margin-right: 0px;
+
+}
 }
 @media (max-width: 1200px) {
   .form_box_contact {
     max-width: 949px;
   }
-  .text_area_box span.error { 
+  .text_area_box span.error {
     width: 100%;
 }
 
@@ -278,6 +300,11 @@ textarea::-webkit-input-placeholder {
     padding-top: 80px;
   }
 }
+.contactus_form_data .send_button {
+  width: 113px;
+
+}
+
 @media (max-width: 575px) {
   .text_area_box textarea {
     max-width: 857px;
