@@ -252,7 +252,7 @@ ol.list_order li {
   top: 4px;
 }
 .lorens_padding {
-  padding: 40px 0;
+  padding: 60px 0 40px;
   margin-bottom: 0;
 }
 .lorem_para p{
@@ -311,7 +311,6 @@ p.lorens_padding {
     padding-left: 55px;
     padding-right: 55px;
 }
-
 }
 @media (max-width: 1200px){
 .privacy_header {
@@ -334,7 +333,7 @@ p.lorens_padding {
 }
 table tr th {
   font-size: 18px;
-  
+
 }
 }
 

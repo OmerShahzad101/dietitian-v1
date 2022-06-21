@@ -102,6 +102,13 @@
   position: relative;
   margin-bottom: 27px;
 }
+.lorem_wrapper ul.site-links li a{
+  text-decoration: dashed;
+  color: #000000ad;
+}
+.lorem_wrapper ul.site-links li a:hover{
+  text-decoration: underline;
+}
 .lorem_wrapper ul{
   padding-left: 0;
 }

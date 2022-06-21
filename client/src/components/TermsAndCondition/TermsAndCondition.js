@@ -283,7 +283,7 @@ const TermsAndCondition = () => {
                 </li>
                   <li>
                     <b>
-                     Email: [Preferred Email Address]
+                     Email: <a href="info@dietitianyourway.com">info@dietitianyourway.com</a>
                     </b>
                 </li>
               </ul>
@@ -292,7 +292,7 @@ const TermsAndCondition = () => {
                   <b>Mailing Address:</b>
                 </li>
                 <li><b>Dietitian Your Way LLC Copyright Agent</b></li>
-                <li><b>[Preferred Mailing Address]</b></li>
+                <li><b> Mailing address: 1032 E Brandon Blvd #5828 Brandon fl 33511</b></li>
               </ul>
             </div>
           </div>
