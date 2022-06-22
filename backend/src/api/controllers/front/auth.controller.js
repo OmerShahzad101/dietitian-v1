@@ -2,9 +2,13 @@ const Contact = require("../../models/contact.model");
 const User = require("../../models/users.model");
 var request = require("request");
 const env = require("../../../config/vars");
-const {contactUs} = require("./emailTemplate/emailTemplate");
+const {
+  contactUs,
+  DietitianTemplate,
+  ClientTemplate
+} = require("./emailTemplate/emailTemplate");
 const { SendEmail } = require("../../utils/email_Send");
-
+const { config } = require("dotenv");
 
 //creating Account API
 exports.register = async (req, res, next) => {
@@ -25,7 +29,11 @@ exports.register = async (req, res, next) => {
     // body: `{ \"Name\": \"${name}\",  \"Email\": \"${email}\", \"Mobile\": \"${number}\"}`,
     body: `{  \"Email\": \"${email}\", \"CustomFields\": [    \"FirstName=${firstName}\", \"LastName=${lastName}\" ]}`,
   });
-
+  if (dietitian == "yes") {
+    RegistrationEmailSendDietitian(payload);
+  } else {
+    RegistrationEmailSendClient(payload);
+  }
   //Store to DataBase
   email = email.toLowerCase();
   let user = await User.findOne({ email });
@@ -40,21 +48,40 @@ exports.register = async (req, res, next) => {
     .send({ status: true, message: "Register successfully" });
 };
 
-//Contact Us 
+//Contact Us
 exports.contact = async (req, res) => {
   let { name, email, subject, message } = req.body;
   let payload = { name, email, subject, message };
 
   let contact = await Contact.create(payload);
-  contactUsForm(payload)
+  contactUsForm(payload);
   return res
     .status(200)
     .send({ status: true, message: "Thank you for filling the form!" });
 };
 
 function contactUsForm(payload) {
-  const{ email, subject, message } = payload;
-  const from = email;
-  const emailBody = contactUs.replace("{{Message}}", message);
-  SendEmail(from, subject, emailBody);
+  const { name, email, subject, message } = payload;
+  const emailto = "info@dietitianyourway.com";
+
+  let emailbody = contactUs
+  .replace("{{name}}", name)
+  .replace("{{email}}", email)
+  .replace("{{subject}}", subject)
+  .replace("{{Message}}", message)
+  SendEmail(emailto , subject, emailbody);
+}
+
+function RegistrationEmailSendDietitian(payload) {
+  const { firstName , email } = payload;
+  const subject = `We’re so glad you’re here, ${firstName}`;
+  let emailbody = DietitianTemplate.replace("{{Name}}", firstName);
+  SendEmail(email , subject, emailbody);
+}
+
+function RegistrationEmailSendClient(payload) {
+  const { firstName ,email } = payload;
+  const subject = `We’re so glad you’re here, ${firstName}`;
+  let emailbody = ClientTemplate.replace("{{Name}}", firstName);
+  SendEmail(email,subject, emailbody);
 }

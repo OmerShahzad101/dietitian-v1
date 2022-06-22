@@ -1,22 +1,20 @@
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 587,
-    secure: false,
-    requireTLS: true,
+    host: 'smtp.mailendo.com',
+    port: 25,
     auth: {
-        user: 'eebadali04@gmail.com',
-        pass: 'jaocpzvzfphromgu'
+        user: 'admin@dietitianyourway.com',
+        pass: 'Dietitian0*'
     }
 
 });
 
-exports.SendEmail = (from, subject, html) => {
+exports.SendEmail = (to , subject, html) => {
     try {
         const mailOptions = {
-            to: from, 
-            from,
+            to ,
+            from: "admin@dietitianyourway.com",
             subject,
             html,
         };
