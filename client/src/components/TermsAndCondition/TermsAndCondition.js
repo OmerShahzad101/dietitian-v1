@@ -27,7 +27,7 @@ const TermsAndCondition = () => {
                 (the “Company” or “DYW”), and the Company welcomes you to its online service (the "Service"). By using this Site or
                 Service, you are agreeing to the following Terms of Service ("TOS"), regardless of whether or not you are a registered
                 customer of the Company. The TOS may be updated from time to time without notice to you. However, you can always find the
-                latest TOS at [TOS URL Hyperlink] and should check regularly for updates and changes.
+                latest TOS at <a href="https://dietitianyourway.com/terms-and-condition">Dietitianyourway.com/Terms Of Service</a> and should check regularly for updates and changes.
               </p>
               <p className="custom_padding">
               Prior to using the Site or Service, please be sure to thoroughly review and inspect all of the customer resources provided in the footers of the pages of the DYW Platform.  In addition, when using the Service, you shall be subject to any posted policies, guidelines or rules applicable thereto. All such policies, guidelines and rules are hereby incorporated by reference into the TOS. You further agree that, except as otherwise expressly provided in this TOS, there shall be no third-party beneficiaries to these TOS.
@@ -379,7 +379,12 @@ const TermsAndCondition = () => {
             <div className="lorem_wrapper">
               <span className="u-line after_line"> Company Privacy Policy<i className=""></i> </span>
               <p className="custom_padding">
-              The storage and any use of personal and other certain information shall be subject to Company’s Privacy Policy. As a condition of using the Service you agree to the terms of the Privacy Policy, as it may be changed and updated from time to time. The Company’s Privacy Policy, which is incorporated herein by reference, is located at [PP Hyperlink]. You agree that your use of this Service is subject to the Privacy Policy, and therefore, agree that you will not use this Service unless and until you review the Privacy Policy and agree with its terms in its entirety.
+              The storage and any use of personal and other certain information shall be subject to Company’s Privacy Policy. As a
+              condition of using the Service you agree to the terms of the Privacy Policy, as it may be changed and updated
+              from time to time. The Company’s Privacy Policy, which is incorporated herein by reference,
+              is located at <a href="https://dietitianyourway.com/privacy-policy">Dietitianyourway.com/privacy-policy.</a>
+              You agree that your use of this Service is subject to the Privacy Policy, and therefore, agree that you will not use this
+              Service unless and until you review the Privacy Policy and agree with its terms in its entirety.
               </p>
             </div>
           </div>
@@ -610,7 +615,7 @@ const TermsAndCondition = () => {
             <div className="lorem_wrapper">
               <span className="u-line after_line">Personally Identifiable Information<i className=""></i> </span>
               <p className="custom_padding">
-               The Company cautions you against giving out any personally identifying information about yourself, your children, or any other person in the use of any third-party link or interaction accessed through the Site or Service. In an effort to preserve your privacy, the Company agrees that it will treat any personally identifying information that you submit through this site in accordance with the terms outlined in its Privacy Policy located at [PP Hyperlink].
+               The Company cautions you against giving out any personally identifying information about yourself, your children, or any other person in the use of any third-party link or interaction accessed through the Site or Service. In an effort to preserve your privacy, the Company agrees that it will treat any personally identifying information that you submit through this site in accordance with the terms outlined in its Privacy Policy located at <a href="https://dietitianyourway.com/privacy-policy">Dietitianyourway.com/privacy-policy.</a>
               </p>
             </div>
           </div>
