@@ -159,6 +159,14 @@ p.sit_amet {
   padding: 30px 0;
   margin-bottom: 0;
 }
+p.custom_padding a{
+  font-size: 32px;
+  color: #d9753b;
+}
+p.custom_padding a:hover{
+  text-decoration: dashed;
+
+}
 p.custom_padding {
   margin-bottom: 0;
   padding-top: 19px;
@@ -232,6 +240,10 @@ ol.list_order li {
   }
   .lorem_para p {
     font-size: 25px;
+  }
+  p.custom_padding a {
+    font-size: 26px;
+    color: #d9753b;
   }
   .lorem_wrapper li
   {font-size: 25px;}
@@ -331,7 +343,9 @@ p.custom_padding {
   padding: 16px 0;
 
 }
-
+p.custom_padding a {
+  font-size: 21px;
+}
 .privacy_policy p {
   font-size: 21px;
   line-height: 27px;

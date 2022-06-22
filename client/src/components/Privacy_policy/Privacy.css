@@ -166,12 +166,12 @@ ul li.links a{
 }
 .lorem_wrapper ul.add-padd li a{
   text-decoration: dashed;
-  color: #000000ad;
+  color: #d9753b;
 
 }
 .lorem_wrapper ul.add-padd li a:hover{
 
-  color: #444;
+  color: #d9753b;
 }
 .lorem_wrapper li.dolores::after {
   content: url('../../assets/images/green-tick.png');
@@ -210,10 +210,10 @@ p.custom_padding {
 }
 p.custom_padding a{
   text-decoration: dashed;
-  color: #000000ad;
+  color: #d9753b;
 }
 p.custom_padding a:hover{
-  color: #444;
+  color: #d9753b;
 }
 i.after_line {
   position: relative;
@@ -255,6 +255,10 @@ ol.list_order li {
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+p.custom_padding a {
+  font-size: 26px;
+  
 }
   .privacy_header h1 {
     font-size: 74px;
