@@ -63,9 +63,7 @@ const Home = () => {
 
   const onSubmitHandler = (data) => {
     setIsLoading(true);
-    // axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{
-      axios.post("http://localhost:8082/v1/front/auth/register", data).then((response) =>{
-  
+    axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{  
     if (response.data.status === true) {
         setIsLoading(false);
         toast.success(response.data.message,{ position:"top-right", autoClose: true});
