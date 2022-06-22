@@ -36,7 +36,7 @@ p{
   font-size: 32px;
   line-height: 32px;
   text-align: left;
-  color: #000000;
+  color: #000000ad;
 }
 .lorem_wrapper span {
   font-family: "Noiche";
@@ -74,7 +74,7 @@ p{
   font-size: 32px;
   line-height: 32px;
   text-align: left;
-  color:#000000;
+  color:#000000ad;
   list-style: none;
   position: relative;
   margin-bottom: 20px;
@@ -104,7 +104,7 @@ p.elit {
   font-size: 32px;
   line-height: 32px;
   display: block;
-  color: #000;
+  color: #000000ad;
   padding-left: 25px;
 }
 p.elit span{
@@ -123,7 +123,7 @@ p.elitss {
   font-size: 29px;
   line-height: 32px;
   display: block;
-  color: #000000;
+  color: #000000ad;
   padding-left: 25px;
 }
 table {
@@ -164,6 +164,15 @@ ul li.links a{
   padding-left: 33px;
   position: relative;
 }
+.lorem_wrapper ul.add-padd li a{
+  text-decoration: dashed;
+  color: #000000ad;
+
+}
+.lorem_wrapper ul.add-padd li a:hover{
+
+  color: #444;
+}
 .lorem_wrapper li.dolores::after {
   content: url('../../assets/images/green-tick.png');
   position: absolute;
@@ -198,6 +207,13 @@ p.custom_padding {
   margin-bottom: 0;
   padding-top: 19px;
   padding-bottom: 27px;
+}
+p.custom_padding a{
+  text-decoration: dashed;
+  color: #000000ad;
+}
+p.custom_padding a:hover{
+  color: #444;
 }
 i.after_line {
   position: relative;
@@ -252,7 +268,7 @@ ol.list_order li {
   top: 4px;
 }
 .lorens_padding {
-  padding: 40px 0;
+  padding: 60px 0 40px;
   margin-bottom: 0;
 }
 .lorem_para p{
@@ -311,7 +327,6 @@ p.lorens_padding {
     padding-left: 55px;
     padding-right: 55px;
 }
-
 }
 @media (max-width: 1200px){
 .privacy_header {
@@ -334,7 +349,7 @@ p.lorens_padding {
 }
 table tr th {
   font-size: 18px;
-  
+
 }
 }
 

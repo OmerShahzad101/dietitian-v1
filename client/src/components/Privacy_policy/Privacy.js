@@ -262,7 +262,7 @@ const Privacy = () => {
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    If you are a resident of California, California Civil Code Section 1798.83 permits you to request information regarding the disclosure of your personal information by DYW or its subsidiaries to a third-party for the third-party’s direct marketing purposes.  This right is granted to California residents and applies only to their activities within the State of California.  To make such a request, please send your request via email to: [Preferred Email Address].
+                    If you are a resident of California, California Civil Code Section 1798.83 permits you to request information regarding the disclosure of your personal information by DYW or its subsidiaries to a third-party for the third-party’s direct marketing purposes.  This right is granted to California residents and applies only to their activities within the State of California.  To make such a request, please send your request via email to: <a href="info@dietitianyourway.com"> info@dietitianyourway.com</a>.
                     </span>
                   </p>
                 </li>
@@ -306,7 +306,7 @@ const Privacy = () => {
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                    We will comply with any user’s requests regarding access, correction, and/or deletion of the Personal Information we store in accordance with applicable law, including the EU General Data Protection Regulation (GDPR). To request that we correct, delete, or export any Personal Information, please send your request via email to: [Preferred Email Address].
+                     We will comply with any user’s requests regarding access, correction, and/or deletion of the Personal Information we store in accordance with applicable law, including the EU General Data Protection Regulation (GDPR). To request that we correct, delete, or export any Personal Information, please send your request via email to: <a href="info@dietitianyourway.com"> info@dietitianyourway.com</a>.
                     </span>
                   </p>
                 </li>
@@ -379,52 +379,6 @@ const Privacy = () => {
                     </span>
                   </p>
                 </li>
-              </ul>
-              <p className="custom_padding">
-                <b>
-                  Types of cookies we may use
-                </b>
-              </p>
-              <ul className="add-padd">
-                <li className="dolores">
-                  <p className="elit">
-                    <span>
-                     The following cookies listed below are those which we may use to collect certain information about you.
-                    </span>
-                  </p>
-                </li>
-                <table className="tables">
-                  <tr>
-                    <th>Cookie Name</th>
-                    <th>Cookie Type</th>
-                    <th>Cookie Description</th>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td>  </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td> </td>
-                  </tr>
-                </table>
               </ul>
               <p className="custom_padding">
                 <b>
@@ -543,7 +497,11 @@ const Privacy = () => {
               <div className="add-more"></div>
               <span className="u-line after_line">DATA CONTROLLER AND HOW TO CONTACT US </span>
               <p className="custom_padding thin">
-                The Personal Information we collect and process is controlled by Dietitian Your Way LLC, a Florida limited liability company located in the United States. You may contact us via email at: [Preferred Email Address].  Any and all Data Subject Access Requests (“DSAR’s”) may be submitted to the Company via email at: [Preferred Email Address].  Such DSAR’s shall be responded to within one month of receipt, unless applicable law requires a more expedited response.
+                The Personal Information we collect and process is controlled by Dietitian Your Way LLC, a Florida limited liability
+                company located in the United States. You may contact us via email at:
+                <a href="info@dietitianyourway.com"> info@dietitianyourway.com</a>.  Any and all Data Subject Access Requests
+                (“DSAR’s”) may be submitted to the Company via email at: <a href="info@dietitianyourway.com"> info@dietitianyourway.com</a>.  Such DSAR’s shall be
+                responded to within one month of receipt, unless applicable law requires a more expedited response.
               </p>
 
             </div>
@@ -551,6 +509,7 @@ const Privacy = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

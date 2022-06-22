@@ -283,7 +283,7 @@ const TermsAndCondition = () => {
                 </li>
                   <li>
                     <b>
-                     Email: [Preferred Email Address]
+                     Email: <a href="info@dietitianyourway.com">info@dietitianyourway.com</a>
                     </b>
                 </li>
               </ul>
@@ -292,7 +292,7 @@ const TermsAndCondition = () => {
                   <b>Mailing Address:</b>
                 </li>
                 <li><b>Dietitian Your Way LLC Copyright Agent</b></li>
-                <li><b>[Preferred Mailing Address]</b></li>
+                <li><b> Mailing address: 1032 E Brandon Blvd #5828 Brandon fl 33511</b></li>
               </ul>
             </div>
           </div>
@@ -653,7 +653,7 @@ const TermsAndCondition = () => {
               <p className="custom_padding">
                These TOS, in conjunction with any active service agreements entered into by and between yourself and the Company, govern the terms and conditions of your use of the Site and the Service, and supersede all prior or contemporaneous communications and proposals, whether electronic, oral or written, between you and the Company with respect to the Site or the Service. Notwithstanding the foregoing, you may also be subject to additional terms and conditions, posted policies (including but not limited to the Company’s Privacy Policy), guidelines, or rules that may apply when you use or purchase certain Content from the Site or certain elements of the Service, affiliate or advertiser services, third-party content or third-party software. The Company may revise these TOS at any time by updating this posting. Accordingly, you should review the TOS periodically to determine if any changes have been made. Your continued use of this Site after any changes have been made to the TOS signifies and confirms your acceptance of any such changes or amendments to these TOS.
               </p>
-              <ul>
+              <ul className="site-links">
                 <li>
                 The failure of the Company to exercise or enforce any right or provision of these TOS shall not operate as a waiver of such right or provision. Any waiver of the TOS by the Company must be in writing and signed by an authorized representative of the Company to be effective.
                 </li>
@@ -667,7 +667,7 @@ const TermsAndCondition = () => {
                  Nothing contained in these TOS shall be construed to constitute either party as a partner, joint-venturer, employee or agent of the other party, nor shall either party hold itself out as such. Neither party has any right or authority to incur, assume or create, in writing or otherwise, any warranty, liability or other obligation of any kind, express or implied, in the name of or on behalf of the other party, it being intended by both parties that each is and shall remain independent contractors (to the extent applicable), and therefore, responsible for its own actions.
                 </li>
                 <li>
-                 Please immediately report any violations of these TOS to Company at [Preferred Email Address].
+                 Please immediately report any violations of these TOS to Company at Email: <a href="info@dietitianyourway.com"> info@dietitianyourway.com</a>.
                 </li>
               </ul>
             </div>
