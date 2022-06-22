@@ -164,6 +164,15 @@ ul li.links a{
   padding-left: 33px;
   position: relative;
 }
+.lorem_wrapper ul.add-padd li a{
+  text-decoration: dashed;
+  color: #000000ad;
+
+}
+.lorem_wrapper ul.add-padd li a:hover{
+
+  color: #444;
+}
 .lorem_wrapper li.dolores::after {
   content: url('../../assets/images/green-tick.png');
   position: absolute;
@@ -198,6 +207,13 @@ p.custom_padding {
   margin-bottom: 0;
   padding-top: 19px;
   padding-bottom: 27px;
+}
+p.custom_padding a{
+  text-decoration: dashed;
+  color: #000000ad;
+}
+p.custom_padding a:hover{
+  color: #444;
 }
 i.after_line {
   position: relative;
