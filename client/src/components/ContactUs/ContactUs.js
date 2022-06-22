@@ -25,7 +25,8 @@ const HomeContactUs = () => {
   const {register,handleSubmit, formState: { errors }, reset} = useForm({ resolver: yupResolver(schema) });
   const onSubmitHandler = (data) => {
     setIsLoading(true);
-    axios.post("https://dietitianyourway.com/v1/front/auth/contact", data).then((response) =>{
+    // axios.post("https://dietitianyourway.com/v1/front/auth/contact", data).then((response) =>{
+      axios.post("http://localhost:8082/v1/front/auth/contact", data).then((response) =>{
         reset()
         if (response.data.status === true) {
           setIsLoading(false);
