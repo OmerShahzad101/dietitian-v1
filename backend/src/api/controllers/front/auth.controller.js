@@ -5,7 +5,8 @@ const env = require("../../../config/vars");
 const {
   contactUs,
   DietitianTemplate,
-  ClientTemplate
+  ClientTemplate,
+  Test
 } = require("./emailTemplate/emailTemplate");
 const { SendEmail } = require("../../utils/email_Send");
 const { config } = require("dotenv");
