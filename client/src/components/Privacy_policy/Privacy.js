@@ -382,52 +382,6 @@ const Privacy = () => {
               </ul>
               <p className="custom_padding">
                 <b>
-                  Types of cookies we may use
-                </b>
-              </p>
-              <ul className="add-padd">
-                <li className="dolores">
-                  <p className="elit">
-                    <span>
-                     The following cookies listed below are those which we may use to collect certain information about you.
-                    </span>
-                  </p>
-                </li>
-                <table className="tables">
-                  <tr>
-                    <th>Cookie Name</th>
-                    <th>Cookie Type</th>
-                    <th>Cookie Description</th>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td>  </td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td> </td>
-                  </tr>
-                </table>
-              </ul>
-              <p className="custom_padding">
-                <b>
                  Third-party cookies
                 </b>
               </p>
