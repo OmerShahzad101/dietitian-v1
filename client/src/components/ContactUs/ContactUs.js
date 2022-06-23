@@ -110,8 +110,8 @@ const HomeContactUs = () => {
                 <button className="send_button" type="submit">
                   Send
                   <svg xmlns="http://www.w3.org/2000/svg" width="5.771" height="9.608" viewBox="0 0 5.771 9.608"className="send_arrow" >
-  <path id="Stroke-1"  d="M.121.121a.415.415,0,0,1,.54-.04l.047.04L4.286,3.7,7.865.121A.415.415,0,0,1,8.4.081l.047.04a.415.415,0,0,1,.04.54l-.04.047L4.58,4.58a.415.415,0,0,1-.54.04l-.047-.04L.121.708A.415.415,0,0,1,.121.121Z" transform="translate(0.535 9.108) rotate(-90)" fill="#fff" stroke-width="1"/>
-</svg>
+                    <path id="Stroke-1"  d="M.121.121a.415.415,0,0,1,.54-.04l.047.04L4.286,3.7,7.865.121A.415.415,0,0,1,8.4.081l.047.04a.415.415,0,0,1,.04.54l-.04.047L4.58,4.58a.415.415,0,0,1-.54.04l-.047-.04L.121.708A.415.415,0,0,1,.121.121Z" transform="translate(0.535 9.108) rotate(-90)" fill="#fff" stroke-width="1"/>
+                  </svg>
                 </button>
               </div>
             </div>
