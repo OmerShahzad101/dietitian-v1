@@ -307,7 +307,7 @@ const Privacy = () => {
                 <li className="dolores">
                   <p className="elit">
                     <span>
-                     We will comply with any user’s requests regarding access, correction, and/or deletion of the Personal Information we store in accordance with applicable law, including the EU General Data Protection Regulation (GDPR). To request that we correct, delete, or export any Personal Information, please send your request via email to: <a href="mailto:info@dietitianyourway.com"> info@dietitianyourway.com</a>.
+                     We will comply with any user’s requests regarding access, correction, and/or deletion of the Personal Information we store in accordance with applicable law, including the EU General Data Protection Regulation (GDPR). To request that we correct, delete, or export any Personal Information, please send your request via email to: <a href="mailto:info@dietitianyourway.com"> info@dietitianyourway.com.</a>
                     </span>
                   </p>
                 </li>

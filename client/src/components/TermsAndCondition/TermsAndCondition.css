@@ -333,7 +333,14 @@ ol.list_order li {
   line-height: 27px;
 }
 .privacy_header {
-  height: 170px;
+  height: 155px;
+}.lorem_wrapper ol.numbers li span {
+  font-size: 24px;
+}.lorem_wrapper span {
+
+  line-height: 27px;
+
+  margin-bottom: 25px;
 }
 p.custom_padding {
   padding-top: 18px;
@@ -368,7 +375,7 @@ p.custom_padding a {
   padding: 26px 18px;
 }
 .lorem_wrapper span {
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 18px;
 }
 .lorem_wrapper span::after {

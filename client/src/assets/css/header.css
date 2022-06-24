@@ -22,6 +22,12 @@
 .login_btn .nav-link:first-child {margin-right: 10px;}
 .login_btn .nav-link img {margin-right: 9px;}
 .login_btn .nav-link {border-radius: 50px;font-weight: 500;font-size: 25px;text-align: left;color: #000;background: var(--orange-smlit);filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));height: 43px;display: flex;align-items: center;justify-content: center;padding: 0 22px;border: 2px solid var(--orange-smlit);}
+@media (max-width: 576px){
+    .navbar_wraper {
+        min-height: 80px;
+        
+    }
+}
 
 
 
