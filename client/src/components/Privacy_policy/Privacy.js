@@ -11,6 +11,7 @@ const Privacy = () => {
       <div className=" privacy_policy mt_top">
         <div className="privacy_header">
           <div className="container">
+          {/* <h1>Privacy Policy</h1> */}
             <h1>Privacy Policy</h1>
             <p>Last modified on December 17, 2021</p>
           </div>
