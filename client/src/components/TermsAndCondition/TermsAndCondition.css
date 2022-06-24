@@ -5,6 +5,10 @@
   margin-left: 200px;
   margin-bottom: 32px;
 }
+.lorem_wrapper ul.sites-links li a{
+  color: #d9753b;
+  text-decoration: none;
+}
 .lorem_wrapper ul.site-links li{
   margin-bottom: 8px;
 }
@@ -96,7 +100,7 @@
   font-size: 30px;
   line-height: 33px;
   text-align: left;
-  color: #444;
+
   text-align: justify;
   list-style: none;
   position: relative;
@@ -104,11 +108,11 @@
 }
 .lorem_wrapper ul.site-links li a{
   text-decoration: dashed;
-  color: #000000ad;
+  color: #d9753b;
 }
 .lorem_wrapper ul.site-links li a:hover{
   text-decoration: underline;
-  color: #444;
+  color: #d9753b;
 }
 .lorem_wrapper ul{
   padding-left: 0;

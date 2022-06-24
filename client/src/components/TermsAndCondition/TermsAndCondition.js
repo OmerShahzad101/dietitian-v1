@@ -283,7 +283,7 @@ const TermsAndCondition = () => {
                 </li>
                   <li>
                     <b>
-                     Email: <a href="info@dietitianyourway.com">info@dietitianyourway.com</a>
+                     Email: <a href="mailto:info@dietitianyourway.com">info@dietitianyourway.com</a>
                     </b>
                 </li>
               </ul>
@@ -382,7 +382,7 @@ const TermsAndCondition = () => {
               The storage and any use of personal and other certain information shall be subject to Company’s Privacy Policy. As a
               condition of using the Service you agree to the terms of the Privacy Policy, as it may be changed and updated
               from time to time. The Company’s Privacy Policy, which is incorporated herein by reference,
-              is located at <a href="https://dietitianyourway.com/privacy-policy">privacy-policy.</a>
+              is located at <a href="https://dietitianyourway.com/privacy-policy">Privacy Policy.</a>
               You agree that your use of this Service is subject to the Privacy Policy, and therefore, agree that you will not use this
               Service unless and until you review the Privacy Policy and agree with its terms in its entirety.
               </p>
@@ -615,7 +615,7 @@ const TermsAndCondition = () => {
             <div className="lorem_wrapper">
               <span className="u-line after_line">Personally Identifiable Information<i className=""></i> </span>
               <p className="custom_padding">
-               The Company cautions you against giving out any personally identifying information about yourself, your children, or any other person in the use of any third-party link or interaction accessed through the Site or Service. In an effort to preserve your privacy, the Company agrees that it will treat any personally identifying information that you submit through this site in accordance with the terms outlined in its Privacy Policy located at <a href="https://dietitianyourway.com/privacy-policy">privacy-policy.</a>
+               The Company cautions you against giving out any personally identifying information about yourself, your children, or any other person in the use of any third-party link or interaction accessed through the Site or Service. In an effort to preserve your privacy, the Company agrees that it will treat any personally identifying information that you submit through this site in accordance with the terms outlined in its Privacy Policy located at <a href="https://dietitianyourway.com/privacy-policy">Privacy Policy.</a>
               </p>
             </div>
           </div>
@@ -658,7 +658,7 @@ const TermsAndCondition = () => {
               <p className="custom_padding">
                These TOS, in conjunction with any active service agreements entered into by and between yourself and the Company, govern the terms and conditions of your use of the Site and the Service, and supersede all prior or contemporaneous communications and proposals, whether electronic, oral or written, between you and the Company with respect to the Site or the Service. Notwithstanding the foregoing, you may also be subject to additional terms and conditions, posted policies (including but not limited to the Company’s Privacy Policy), guidelines, or rules that may apply when you use or purchase certain Content from the Site or certain elements of the Service, affiliate or advertiser services, third-party content or third-party software. The Company may revise these TOS at any time by updating this posting. Accordingly, you should review the TOS periodically to determine if any changes have been made. Your continued use of this Site after any changes have been made to the TOS signifies and confirms your acceptance of any such changes or amendments to these TOS.
               </p>
-              <ul className="site-links">
+              <ul className="sites-links">
                 <li>
                 The failure of the Company to exercise or enforce any right or provision of these TOS shall not operate as a waiver of such right or provision. Any waiver of the TOS by the Company must be in writing and signed by an authorized representative of the Company to be effective.
                 </li>
@@ -672,7 +672,7 @@ const TermsAndCondition = () => {
                  Nothing contained in these TOS shall be construed to constitute either party as a partner, joint-venturer, employee or agent of the other party, nor shall either party hold itself out as such. Neither party has any right or authority to incur, assume or create, in writing or otherwise, any warranty, liability or other obligation of any kind, express or implied, in the name of or on behalf of the other party, it being intended by both parties that each is and shall remain independent contractors (to the extent applicable), and therefore, responsible for its own actions.
                 </li>
                 <li>
-                 Please immediately report any violations of these TOS to Company at Email: <a href="info@dietitianyourway.com"> info@dietitianyourway.com</a>.
+                 Please immediately report any violations of these TOS to Company at Email: <a href="mailto:info@dietitianyourway.com"> info@dietitianyourway.com</a>.
                 </li>
               </ul>
             </div>
