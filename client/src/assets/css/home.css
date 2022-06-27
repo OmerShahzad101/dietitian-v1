@@ -1,7 +1,7 @@
 /* FindRegistered_wraper */
 
 .FindRegistered_wraper{background: url('../images/Home/banner.webp');background-size: cover;background-position: center;min-height: 700px;width: 100%;display: flex;align-items: center;justify-content: center;flex-direction: column;padding-top: 50px;padding-bottom: 50px;}
-.FindRegistered_wraper h1 { 
+.FindRegistered_wraper h1 {
     max-width: initial;
     font-family: 'Noiche';
     font-weight: 600;
@@ -43,7 +43,7 @@ p.text_thank_you {
 .mt_top{margin-top: 110px;}
 
 /* formBox */
- 
+
 .formBox {
     position: relative;
     border-radius: 22px;
@@ -78,11 +78,11 @@ img.check_true_img {
     border-radius: 50%;
 }
 .fieldset_top_text h3 {
-    font-family: 'Noiche'; 
+    font-family: 'Noiche';
     font-weight: 700;
     font-size: 39px;
     line-height: 34px;
-    text-align: center; 
+    text-align: center;
     margin-bottom: 0;
     margin-top: 7px;
 }
@@ -92,7 +92,7 @@ img.check_true_img {
     margin: auto;
     line-height: 1.1;
     position: relative;
-    font-size:30px; 
+    font-size:30px;
     display: flex!important;
     align-items: center;
     justify-content: center;
@@ -138,7 +138,7 @@ img.check_true_img {
 }
   .form_box_input .form-group input:focus{
     outline:none;
-  } 
+  }
   .form_box_input .field_wrap {
       position: relative;
   }
@@ -159,7 +159,7 @@ img.check_true_img {
 .about_us_wraper h1{font-family: 'Noiche';font-weight: bold;font-size: 60px; text-align: left;color: #000; }
 .about_us_wraper p{ font-family: 'Noiche';font-weight: 500;font-size: 28px;line-height: 25px;text-align: left;color: #000;}
 .about_us_wraper h3{font-family: 'Noiche';font-weight: 600;max-width: 664px;font-size: 50px;line-height: 40px;text-align: left;color: #000; }
-.about_us_wraper ul{padding-left: 0;} 
+.about_us_wraper ul{padding-left: 0;}
 .about_us_wraper ul li {position: relative;font-family: 'Noiche';font-weight: 600;font-size: 30px;text-align: left;color: #000;padding-left: 26px;list-style: none;line-height: normal;line-height: 40px;}
 .Registered_Dietitian_list {display: flex;max-width: 498px;justify-content: space-between;margin: 50px 0;}
 .about_us_wraper ul li:after {content: "";position: absolute;width: 14px;height: 14px;background: #f29f05;border-radius: 50%;left: 0;top: 50%;transform: translateY(-50%);}
@@ -169,7 +169,7 @@ img.check_true_img {
 /* looking_for_registered */
 .looking_for_registered{background: url('../images/Home/looking_for_registered.webp');background-size: cover;background-position: center;min-height: 800px;display: flex;align-items: center;}
 .looking_for_registered h3{font-family: 'Noiche';font-weight: 600;font-size: 60px;line-height: 90px;text-align: left;color: #000;}
-.looking_for_registered p{max-width: 1217px; font-family: 'Noiche';font-weight: 500;font-size: 28px;line-height: 25px;text-align: left;color: #000;} 
+.looking_for_registered p{max-width: 1217px; font-family: 'Noiche';font-weight: 500;font-size: 28px;line-height: 25px;text-align: left;color: #000;}
 /* looking_for_registered_item */
 .looking_for_registered_item .item_wraper:last-child {margin-right: 0;}
 .looking_for_registered_item .item_wraper {margin-right: 40px;}
@@ -191,7 +191,7 @@ img.check_true_img {
 .featured_registered_wraper{background: var(--orange-exlit);padding: 100px 0 100px;}
 .featured_registered_wraper h1{font-family: 'Noiche';font-weight: 600;font-size: 60px;text-align: center;color: #000;}
 .featured_registered_wraper p{max-width: 793px; font-family: 'Noiche';font-weight: 500;font-size: 28px;line-height: 25px;text-align: center;color: #000;
-margin: 0 auto;}  
+margin: 0 auto;}
 
 /* Featured_Registered_team */
 .Featured_Registered_team{display: flex;justify-content: space-between;margin-top: 55px;}
@@ -245,7 +245,7 @@ margin: 0 auto;}
 .Why_trust_us{padding: 85px 0;}
 .Why_trust_us_inner {display: flex;align-items: center;justify-content: space-between;padding: 0 136px 0 100px !important; }
 .Why_trust_us_iteme .card_item {width: 530px !important;margin-bottom: 70px;}
-.Why_trust_us_iteme .card_item .img_item {width: 174px;margin: 0 auto 25px;height: 174px; border-radius: 50%;display: flex;position: relative;justify-content: center;align-items: center;filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.16));} 
+.Why_trust_us_iteme .card_item .img_item {width: 174px;margin: 0 auto 25px;height: 174px; border-radius: 50%;display: flex;position: relative;justify-content: center;align-items: center;filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.16));}
 .Why_trust_us_iteme .card_item .img_item:after{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;width: 156px;height: 156px;background: url('../images/Home/Why_trust_us_circal.png');}
 .bg_brown{background: #BB3E03;}
 .bg_blue{background: #008C96;}
@@ -262,7 +262,7 @@ margin: 0 auto;}
 /* dietitian_speaks_wraper */
 .head_speeks {margin-bottom: 62px;}
 .Dietitian_Speaks_inner {display: flex;justify-content: space-between;flex-wrap: wrap;}
-.Dietitian_Speaks { background-image: url('../images//Home/dietition_speak.png');background-repeat: no-repeat;background-size: cover;height: auto;width: 100%; padding: 100px 0;}   
+.Dietitian_Speaks { background-image: url('../images//Home/dietition_speak.png');background-repeat: no-repeat;background-size: cover;height: auto;width: 100%; padding: 100px 0;}
 .Dietitian_Speaks_card{width: 350px; padding: 6px; border-radius: 10px;background: #fff;box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);  }
 .Dietitian_Speaks_card .speeks_img img{width: 100%;margin: auto;}
 .Dietitian_Speaks_body{padding: 0 15px;}
@@ -275,7 +275,7 @@ margin: 0 auto;}
 .media_object .media_object_content h4 {margin-bottom: 0;font-family: 'Noiche';font-weight: bold;font-size: 18px;text-align: left;color: #727272;}
 .media_object .media_object_content p {font-family: 'Noiche';font-weight: 500;font-size: 16px;text-align: left;color: #727272;}
 .media_object .media_object_content p span img {margin-right: 9px;}
-.media_object .media_object_content p span {margin: 0 10px 0 21px;}  
+.media_object .media_object_content p span {margin: 0 10px 0 21px;}
 .Dietitian_Speaks .head_speeks h5 {font-family: 'Noiche';font-weight: bold;font-size: 34px;text-align: center;color: #ee9b00;line-height: normal;margin-bottom: 0;}
 .Dietitian_Speaks .head_speeks h1 {font-family: 'Noiche';font-weight: 600;letter-spacing: 0.04em;font-size: 60px; text-align: center;color: #fff;line-height: normal; }
 .Dietitian_Speaks .head_speeks p {font-family: 'Noiche';font-weight: 500;font-size: 28px;line-height: 25px;margin: auto;text-align: center; color: #fff;}
@@ -293,7 +293,7 @@ margin: 0 auto;}
 .Join_our_platform_content ul li:after {content: "";position: absolute;width: 14px;height: 14px;background: #f29f05;border-radius: 50%;left: 0;top: 50%;transform: translateY(-50%);}
 .Join_our_platform_content p{max-width: 769px; font-family: 'Noiche';font-weight: 600;font-size: 28px;line-height: 25px;text-align: center;color: #000;}
 .join_our_diet_img:after {content: "";position: absolute;height: 311px;width: 311px;background: url('../images/Home/join_our_diet_circle.png');top: -4px;left: 2px;bottom: 0;right: 0;margin: auto;background-size: cover;background-repeat: no-repeat;}
-.join_our_diet_img {max-width: 350px;height: auto;filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.31));position: relative;margin: 0 auto 20px;} 
+.join_our_diet_img {max-width: 350px;height: auto;filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.31));position: relative;margin: 0 auto 20px;}
 .join_our_diet_wraper h6 {font-family: 'Noiche';font-weight: bold;font-size: 30px;text-align: center;color: #000;max-width: 433px;margin: auto;line-height: normal;}
 button.theme-greenBtn:disabled{
  cursor: not-allowed;
@@ -304,7 +304,7 @@ button.theme-greenBtn:disabled{
     width: 100% !important;
 	font-size: 20px !important;
 }
-.form_box_input .react-tel-input .flag-dropdown { 
+.form_box_input .react-tel-input .flag-dropdown {
     border: 2px solid #929292;
     border-radius: 10px 0 0 10px;
 }
@@ -319,7 +319,7 @@ button.theme-greenBtn:disabled{
 .after_left{position: relative}
 .after_left:after{ content: "";position: absolute;top: 0;left: -70px;height: 100%;width: 3px;background: black;}
 .Stay_Connected_wraper h1{font-family: 'Noiche';font-weight: 600;font-size: 60px;text-align: center;color: #000;margin-bottom: 0;}
-.Stay_Connected_wraper p{font-family: 'Noiche';font-weight: 600;font-size: 36px; color: #000;} 
+.Stay_Connected_wraper p{font-family: 'Noiche';font-weight: 600;font-size: 36px; color: #000;}
 .stay_Connected_form .form-control {width: 397px;margin: 0 auto 20px;height: 58px;border-radius: 29px;background: #fff;box-shadow: 0px 3px 16px rgb(0 0 0 / 16%);font-family: 'Noiche';font-weight: bold;font-size: 26px;letter-spacing: 0.01em;text-align: left;color: #b8b8b8;padding: 0 30px;}
 .stay_Connected_form .form-control:focus { box-shadow: 0px 3px 16px rgb(0 0 0 / 16%);}
 .stay_Connected_form button {margin: 10px auto 0;height: 58px; width: 180px;border-radius: 50px;}
@@ -387,9 +387,9 @@ button.theme-greenBtn:disabled{
 	.Why_trust_us_iteme .card_item p {
 		font-size: 26px;
 	}
-	.FindRegistered_wraper h1 { 
+	.FindRegistered_wraper h1 {
 		font-size: 72px;
-		line-height: 69px; 
+		line-height: 69px;
 	}
 }
 
@@ -725,11 +725,11 @@ button.theme-greenBtn:disabled{
 	.about_us_content {
 		max-width: 475px;
 	}
-	.fieldset-inner .theme-greenBtn { 
-		font-size: 24px; 
+	.fieldset-inner .theme-greenBtn {
+		font-size: 24px;
 		height: 60px;
 	}
-	
+
 	.about_us_wraper p {
 		font-size: 25px;
 	}
@@ -760,7 +760,7 @@ button.theme-greenBtn:disabled{
 		font-size: 31px !important;
 	}
 	img.check_true_img {
-		max-width: 72px; 
+		max-width: 72px;
 		margin: 12px auto 0;
 	}
 }
@@ -795,6 +795,19 @@ button.theme-greenBtn:disabled{
 	.navbar_wraper img.logo-brand {
 		max-width: 86px;
 	}
+	.FindRegistered_wraper{ padding-bottom: 10px;}.Why_trust_us h1 {
+		font-size: 50px;
+		margin: 18px 0;
+	}.Join_our_platform_content h5 {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}.are_you_dietitian {
+		padding: 50px 29px;
+	}.Join_our_platform_content ul li:after {
+		width: 12px;
+		height: 12px;
+		top: 33%;
+	}
 
 	.fieldset_top_text h3 {
 		font-size: 31px;
@@ -827,37 +840,33 @@ button.theme-greenBtn:disabled{
 	.about_us_content {
 		max-width: 100%;
 	}
-
 	.about_us_wraper ul li {
 		font-size: 18px;
 	}
-
 	.looking_for_registered_item .item_wraper {
 		margin-right: 0;
 	}
-
 	.item_wraper {
 		width: 235px;
 		height: 224px;
 	}
-
 	.Join_our_platform_content h2 {
 		font-size: 35px;
 	}
-
 	.Join_our_platform_content ul li {
 		font-size: 17px;
 		line-height: normal;
 		margin-bottom: 13px;
 	}
-
 	.join_our_diet_img {
 		margin-top: 40px;
+	}.join_our_diet_img img{
+		max-width: 100%;
 	}
 }
 
 @media (max-width:568px) {
- 
+
 	.sticky_form {
 		width: 100%;
 		flex: auto;
@@ -903,11 +912,11 @@ button.theme-greenBtn:disabled{
 		margin-bottom: 13px;
 	}
 	.are_you_dietitian {
-		
+
 		margin-bottom: 0;
-	}	
+	}
 	.Stay_Connected_wraper {
-	
+
 		margin-bottom: 0px;
 	}
 	.Why_trust_us {

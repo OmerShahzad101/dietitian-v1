@@ -2,7 +2,7 @@
     max-width: 500px;
     margin: 14px 0px
 }
-.footer_linke a { 
+.footer_linke a {
     line-height: normal;
     padding: 0;
     font-size: 24px;
@@ -24,7 +24,7 @@
 {
     font-family: 'Noiche';
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 18px;
     text-align: center;
     color: #000;
     margin-bottom: 0;
@@ -46,12 +46,12 @@
  }
  .social_linke .nav-link {
     height: 35px;
-    width: 35px; 
+    width: 35px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0; 
+    padding: 0;
     margin: 0 6px;
     filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));
 }
@@ -62,10 +62,13 @@
 
 
 
-@media (max-width:480px) 
+@media (max-width:480px)
 
 {
-    .footer_linke .nav_linke.nav { 
+    .footer_linke .nav_linke.nav {
         flex-direction: column;
+    }.footer_wraper
+    {
+       padding: 20px 0;
     }
 }
