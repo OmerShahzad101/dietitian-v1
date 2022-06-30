@@ -51,28 +51,35 @@ const Home = () => {
   useEffect(() =>{ $('html,body').animate({scrollTop: 0}, 'fast')},[])
   const [done, setDone] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  
+  const [emailError, setemailError] = useState(false);
+  const regex = /^([0-9]*[a-zA-Z_.+-])+[0-9]*\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   const schema = yup.object().shape({
-    email: yup.string().email("Please enter a valid email").required("Email is required"),
+    email: yup.string().required("Email is required"),
     firstName: yup.string().required("First Name is required"),
     lastName: yup.string().required("Last Name is required"),
     dietitian: yup.mixed().nullable().required("This field is required"),
   });
   const {register,handleSubmit, formState: { errors },} = useForm({ resolver: yupResolver(schema) });
 
-
   const onSubmitHandler = (data) => {
-    setIsLoading(true);
-    axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{  
-    if (response.data.status === true) {
-        setIsLoading(false);
-        toast.success(response.data.message,{ position:"top-right", autoClose: true});
-        setDone(response.data.status);
-      } else {
-        setIsLoading(false);
-        toast.error(response.data.message ,{position: "top-right",autoClose: TextTrackCue});
-      }
-    })
+    setemailError(false)
+    if (data.email.match(regex))
+    {
+      setIsLoading(true);
+      axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{  
+      if (response.data.status === true) {
+          setIsLoading(false);
+          toast.success(response.data.message,{ position:"top-right", autoClose: true});
+          setDone(response.data.status);
+        } else {
+          setIsLoading(false);
+          toast.error(response.data.message ,{position: "top-right",autoClose: TextTrackCue});
+        }
+      })
+  }
+  else{
+    setemailError(true)
+  }
   };
 
   return (
@@ -116,13 +123,14 @@ const Home = () => {
                           <input type="email" className='form-control' placeholder='Email Address' autoComplete="off"  {...register("email")} />
                           <div className="icon"> <img className='' src={ email_icon} alt="email_icon" /> </div>
                         </div>
-                        <span className="error">{errors.email?.message}</span>
+                        <span className="error">{errors.email?.message}</span>&nbsp;&nbsp;
+                        <span className="error">{emailError && "Please enter a valid email"}</span>
                       </div>
                       <div className='form-group'>
                         <div>
                           <div className="iagree_radio mt-3 mb-3">
                             <input type="radio" name="are-you-looking" id="are_you_looking" value="no" className="mb-0 is-invalid"  {...register("dietitian")} />
-                            <label htmlFor="are_you_looking" className='m-0'>I am looking for Dietitian. </label>
+                            <label htmlFor="are_you_looking" className='m-0'>I am looking for a Dietitian. </label>
                           </div>
                           <div className="iagree_radio  ">
                             <input type="radio" name="are-you-looking" id="are_you_dietitian" value="yes" className="mb-0 is-invalid"  {...register("dietitian")}  />
