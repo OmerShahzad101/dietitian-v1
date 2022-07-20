@@ -9,7 +9,7 @@ module.exports = {
   <h4> Regards </h4>
 `,
   DietitianTemplate: `
-  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
       <tbody>
          <tr>
             <td align="center" valign="top">
@@ -64,8 +64,9 @@ module.exports = {
 
                                                  
 
-                                                     <p style="display: flex"> <a href="https://www.facebook.com/Dietitian-Your-Way-102166695874067" className="fb_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #3B5998;"><img src="https://dietitian.arhamsoft.org/images/facebook-f-brands.svg"></img></a>
-                                                    <a href="https://instagram.com/dietitianyourway?igshid=YmMyMTA2M2Y=" className="instagram_bg nav-link"  style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #CD486B;"><img src="https://dietitian.arhamsoft.org/images/instagram-brands.svg"></img></a></p>
+                                                     <p style="display: flex"> <a href="https://www.facebook.com/Dietitian-Your-Way-102166695874067" className="fb_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #3B5998;"><img src="https://dietitian.arhamsoft.org/images/facebook-f-brands.png" style="margin: auto;"
+                                                     ></img></a>
+                                                    <a href="https://instagram.com/dietitianyourway?igshid=YmMyMTA2M2Y=" className="instagram_bg nav-link"  style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #CD486B;"><img style="margin: auto;" src="https://dietitian.arhamsoft.org/images/instagram-brands.png"></img></a></p>
                                                    
                                                 </td>
                                                 <tr>
@@ -91,7 +92,7 @@ module.exports = {
                   </tbody>
                </table>
             </td>
-            </tr>
+         </tr>
       </tbody>
    </table>`,
 
@@ -140,8 +141,8 @@ module.exports = {
 																<p style="font-size: 14px;color: #000;font-family: Arial, sans-serif;line-height: 20px;font-weight: 400;margin: 0 auto 10px auto;text-align:left;">That is why Dietitian Your Way is here to cater to your individual needs. We want you to feel well taken care of by health care professionals that align with you- including verified RDN’s. </p>
 																<p style="font-size: 14px;color: #000;font-family: Arial, sans-serif;line-height: 20px;font-weight: 400;margin: 0 auto 10px auto;text-align:left;">We will be sending you a follow up email letting you know when DYW site has been launched. In the meantime feel free to check out our social media for updates and more! </p>
 																<p style="display: flex">
-																	<a href="https://www.facebook.com/Dietitian-Your-Way-102166695874067" className="fb_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #3B5998;"><img src="https://dietitian.arhamsoft.org/images/facebook-f-brands.svg"></img></a>
-																	<a href="https://instagram.com/dietitianyourway?igshid=YmMyMTA2M2Y=" className="instagram_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #CD486B;"><img src="https://dietitian.arhamsoft.org/images/instagram-brands.svg"></img></a>
+																	<a href="https://www.facebook.com/Dietitian-Your-Way-102166695874067" className="fb_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #3B5998;"><img src="https://dietitian.arhamsoft.org/images/facebook-f-brands.png" style="margin: auto;"></img></a>
+																	<a href="https://instagram.com/dietitianyourway?igshid=YmMyMTA2M2Y=" className="instagram_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #CD486B;"><img style="margin: auto;" src="https://dietitian.arhamsoft.org/images/instagram-brands.png"></img></a>
 																</p>
 															</td>
 															<tr>
@@ -167,5 +168,76 @@ module.exports = {
 			</tr>
 	</tbody>
 </table>
-`
+`,
+  OtpTemplate: `<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+     <tr>
+        <td align="center" valign="top">
+           <table border="0" cellpadding="0" cellspacing="0" style="max-width: 620px;padding: 0px">
+              <tbody>
+                 <tr>
+                    <td>
+                       <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;padding: 0px;">
+                          <tr>
+                             <td>
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="box-shadow:0px 3px 6px rgba(0, 0, 0, 16%);background: #fff;">
+                                   <tbody>
+                                      <tr>
+                                         <td style="text-align: center;padding:10px 0;">
+                                            <a href=""><img alt="logo" src="https://dietitian.arhamsoft.org/images/logo.png" style="max-width: 200px" /></a>
+                                         </td>
+                                      </tr>
+                                   </tbody>
+                                </table>
+                             </td>
+                          </tr>
+                          <tbody>
+                             <tr>
+                                <td> &nbsp;
+                                   <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;color: #000;padding: 0 8px">
+                                      <tbody>
+                                         <tr>
+                                            <td style="width: 50%;">
+                                               <p style="font-size: 15px;color:#000;font-family: Arial, sans-serif;line-height: 24px;font-weight: bold;margin: 0 auto 10px auto;text-align:left;">Hi, </p>
+                                            </td>
+                                         </tr>
+                                      </tbody>
+                                   </table>
+                                   <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;color: #000; padding: 0 8px">
+                                      <tbody>
+                                         <tr>
+                                            <td style="overflow:hidden"> 
+                                               <p style="font-size: 14px;color: #000;font-family: Arial, sans-serif;line-height: 20px;font-weight: 400;margin: 0 auto 10px auto;text-align:left;">Thank you for choosing <b>Dietitian your way</b>. Use the following OTP to complete the procedure.</p> 
+                                               <p style="font-size: 19px;color: #000;font-family: Arial, sans-serif;line-height: 20px;font-weight: 400;margin: 0 auto 10px auto;text-align:left; max-width: 150px;    background: #bb3e03;height: 40px; line-height: 42px; font-weight: bold;color: white; border-radius: 10px;text-align: center; margin-top: 40px;margin-bottom: 26px; ">{{OTP}}</p>  
+                                                 <p style="display: flex"> <a href="https://www.facebook.com/Dietitian-Your-Way-102166695874067" className="fb_bg nav-link" style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #3B5998;"><img style="margin: auto;" src="https://dietitian.arhamsoft.org/images/facebook-f-brands.png" /></a>
+                                                  <a href="https://instagram.com/dietitianyourway?igshid=YmMyMTA2M2Y=" className="instagram_bg nav-link"  style="height: 35px;width: 35px;border-radius: 50%;display: flex;align-items: center;justify-content: center;padding: 0;margin: 0 6px;filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.16));background: #CD486B;"><img src="https://dietitian.arhamsoft.org/images/instagram-brands.png" style="margin: auto;" /></a></p>
+                                               
+                                            </td>
+                                            <tr>
+                                               <td>
+                                                  <p style="color: #000;font-family: Arial, sans-serif;font-size: 14px;"> Sincerely, </p> 
+                                                  <p style="color: #000;font-family: Arial, sans-serif;font-size: 14px;">Dietitian Your Way Team </p>
+                                                  <p style="color: #000;font-family: Arial, sans-serif;font-size: 14px;"><a href="mailto:info@dietitianyourway.com">info@dietitianyourway.com</a> </p>
+                                                  <p style="color: #000;font-family: Arial, sans-serif;font-size: 14px;"><a href="">DietitianYourWay.com</a> </p>
+                                                        
+  
+                                                  <p style="color: #000;font-family: Arial, sans-serif;font-size: 14px; margin-top: 40px; background: #ffd992;text-align: center; padding: 20px 0;"> 2022 © Dietitian Your Way.</p>
+                                                
+                                               </td>
+                                            </tr>
+                                      </tbody>
+                                   </table>
+                                </td>
+                                </tr>
+                          </tbody>
+                       </table>
+                    </td>
+                    </tr>
+              </tbody>
+           </table>
+        </td>
+        </tr>
+  </tbody>
+  </table>
+  `,
 };

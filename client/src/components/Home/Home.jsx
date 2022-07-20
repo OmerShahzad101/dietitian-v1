@@ -39,6 +39,8 @@ import clock_regular from '../../assets/images/Home/clock-regular.png'
 import join_our_diet_img from '../../assets/images/Home/join_our_diet_img.webp'
 import arrow_down from '../../assets/images/Home/arrow-down.svg'
 import email_icon from '../../assets/images/Home/email.svg'
+import otp_icon from '../../assets/images/Home/otp.png'
+
 import user_icon from '../../assets/images/Home/user.svg'
 import check_true from '../../assets/images/Home/check.png'
 import { Spinner } from "react-bootstrap";
@@ -50,6 +52,7 @@ function show(){const element = document.getElementById("main"); element.scrollI
 const Home = () => {
   useEffect(() =>{ $('html,body').animate({scrollTop: 0}, 'fast')},[])
   const [done, setDone] = useState(false);
+  const [disabled, setDisabled] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [emailError, setemailError] = useState(false);
   const regex = /^([0-9]*[a-zA-Z_.+-])+[0-9]*\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -58,6 +61,8 @@ const Home = () => {
     firstName: yup.string().required("First Name is required"),
     lastName: yup.string().required("Last Name is required"),
     dietitian: yup.mixed().nullable().required("This field is required"),
+    OTP: yup.string().required("OTP is required"),
+    
   });
   const {register,handleSubmit, formState: { errors },} = useForm({ resolver: yupResolver(schema) });
 
@@ -65,8 +70,10 @@ const Home = () => {
     setemailError(false)
     if (data.email.match(regex))
     {
+      console.log(data)
       setIsLoading(true);
-      axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{  
+      // axios.post("https://dietitianyourway.com/v1/front/auth/register", data).then((response) =>{  
+        axios.post("http://localhost:8082/v1/front/auth/register", data).then((response) =>{  
       if (response.data.status === true) {
           setIsLoading(false);
           toast.success(response.data.message,{ position:"top-right", autoClose: true});
@@ -77,10 +84,26 @@ const Home = () => {
         }
       })
   }
-  else{
-    setemailError(true)
-  }
+  else{ setemailError(true) }
   };
+  const sendOPT = () => {
+    var email=document.getElementById("email").value;  
+    setemailError(false)
+    if (email.match(regex)){
+      setDisabled(true)
+      console.log(email)
+    axios.post("http://localhost:8082/v1/front/auth/authOTP", {email:email}).then((response) =>{ 
+      if (response.data.status === true) {
+        toast.success(response.data.message,{ position:"top-right", autoClose: true});
+      }else{
+        toast.error(response.data.message,{ position:"top-right", autoClose: true});
+
+      }
+    })
+  }
+  else{ setemailError(true) }
+
+  }
 
   return (
     <>
@@ -109,6 +132,7 @@ const Home = () => {
                           <input type="Name" className='form-control' placeholder='First Name' autoComplete="off" {...register("firstName")} />
                           <div className="icon"> <img className='' src={ user_icon} alt="user_icon" /> </div>
                         </div>
+
                         <span className="error">{errors.firstName?.message}</span>
                       </div>
                       <div className='form-group'>
@@ -120,12 +144,22 @@ const Home = () => {
                       </div>
                       <div className='form-group'>
                         <div className='field_wrap'>
-                          <input type="email" className='form-control' placeholder='Email Address' autoComplete="off"  {...register("email")} />
-                          <div className="icon"> <img className='' src={ email_icon} alt="email_icon" /> </div>
+                          <input type="email" disabled={disabled} className='form-control' id='email' placeholder='Email Address' autoComplete="off"   {...register("email")} />
+                          <div className="icon"> <img className='' src={ email_icon } alt="email_icon" /> </div>
+                          <input className="otp-btn" type='button' onClick={sendOPT} disabled={disabled} value="Send OTP"/>
                         </div>
                         <span className="error">{errors.email?.message}</span>&nbsp;&nbsp;
                         <span className="error">{emailError && "Please enter a valid email"}</span>
                       </div>
+
+                      <div className='form-group'>
+                        <div className='field_wrap otp_icon_pos'>
+                          <input type="text" pattern="\d*" className='form-control' placeholder='Enter OTP' maxlength="3" autoComplete="off"  {...register("OTP")} />
+                          <div className="otp_icon"> <img className='' src={otp_icon} alt="otp-icon" /> </div>
+                        </div>
+                        <span className="error">{errors.otp?.message}</span>&nbsp;&nbsp;
+                      </div>
+
                       <div className='form-group'>
                         <div>
                           <div className="iagree_radio mt-3 mb-3">

@@ -20,6 +20,8 @@ const UserSchema = new mongoose.Schema(
     email: { type: String },
     number: { type: String },
     dietitian: { type: String },
+    OTP: { type: String },
+    
   },
   { timestamps: true }
 );
